@@ -1,0 +1,496 @@
+/* GERAL INÍCIO */
+body, h1, h2, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+width: 960px;
+margin: 0 auto;
+padding: 0px;
+position: relative;
+}
+/* GERAL FIM */
+
+/* HEADER INÍCIO */
+.menu-bg {
+  max-width: 100%;
+  display: flex;
+  height: 60px;
+  background: #6653DF;
+}
+
+.logo-menu {
+  margin-left: 10%;
+  margin-top: 4px;
+  min-width: 52px;
+}
+
+.menu-nav ul{
+  display: block;
+  margin-top: 20px;
+}
+
+.menu-nav ul li a {
+  font-family: Sira Fans;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  margin-right: 10px;
+  float: left;
+}
+
+.menu-nav ul li a:hover {
+  border-bottom-style: double;
+}
+
+[data-menu="button"] {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  [data-menu="button"] {
+    display: flex;
+    background: #222;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    align-items: center;
+    position: relative;
+    z-index: 200;
+  }
+
+  [data-menu="button"]::before {
+    margin-right: 4px;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 12px;
+    background: white;
+    box-shadow: 0 4px white, 0 -4px white;
+    transition: .3s transform;
+  }
+
+  [data-menu="button"].active::before {
+    transform: rotate(90deg);
+  }
+
+  #menu {
+    display: none;
+    position: absolute;
+    background: #6653DF;
+    width: max-content;
+    z-index: 50;
+    top: 0;
+    padding: 60px 0 20px 0;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,.2);
+  }
+
+  [data-menu="list"] li a {
+    margin-top: 7px;
+  }
+
+  #menu.active {
+    display: block;
+  }
+
+}
+/* HEADER FIM */
+
+/* SKILL INÍCIO */
+/* .sec-skill img{
+  padding-top: 60px;
+} */
+/* SKILL FIM */
+
+/* APRESENTAÇÃO INÍCIO */
+.sec-apresentacao {
+  max-width: 100%;
+  max-height: max-content;
+  display: flex;
+  background: #224AB2;
+}
+
+.apresenta {
+  margin-top: 10%;
+  margin-right: 20%;
+}
+
+.foto img {
+  margin-left: 10%;
+}
+
+.apresenta h1 {
+  max-width: 100%;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: white;
+  font-family: Fira Sans;
+}
+
+.apresenta p {
+  font-family: Fira Sans;
+  font-weight: 300;
+  color: white;
+  font-size: 1.61em;
+  max-height: 100%;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.type-animation {
+  animation: blinkCursor 500ms infinite normal;
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: #fff
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+
+/* APRESENTAÇÃO FIM */
+
+/* SOBRE INÍCIO */
+.sec-sobre {
+  max-width: 100%;
+  height: 100%;
+  /* display: block; */
+}
+
+.sobre-content h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: Fira Sans;
+  margin-top: 60px;
+  letter-spacing:3px;
+}
+
+.sobre-content h1:after {
+  content: '';
+    display: flex;
+    width: 60px;
+    height: 3px;
+    background: #6653DF;
+    margin: 5px auto;
+}
+
+.paragrafos-sobre {
+  box-shadow: 0 0 20px 10px black;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: block;
+}
+
+.sobre-content p {
+  text-indent: 2%;
+  padding: 5px 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+/* SOBRE FIM */
+
+/* PROJETOS INÍCIO */
+.sec-projetos {
+  width: 100%;
+  height: 660px;
+  margin-top: 60px; 
+  background: #224AB2;
+  overflow: hidden;
+}
+
+.titulo-projetos h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: Fira Sans;
+  padding-top: 20px;
+  letter-spacing:3px;
+}
+
+.titulo-projetos h1:after {
+    content: '';
+    display: flex;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 5px auto;
+}
+
+.slide-projeto {
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+}
+
+.slide:hover {
+  will-change: transform;
+}
+
+.slide li {
+  flex-shrink: 0;
+  width: 50vw;
+  max-width: 802px;
+  margin: 0 20px;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  box-shadow: 20px 20px 20px rgba(0,0,0,.9);
+  opacity: .7;
+  transform: scale(.7);
+  transition: .4s;
+}
+
+.slide li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slide li a p {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Fira Sans;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.slide li a p:hover {
+  border-bottom-style: double;
+}
+
+[data-control="slide"] {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+[data-control="slide"] li a {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  overflow:  hidden;
+  text-indent: 20px;
+  margin: 5px;
+}
+
+[data-control="slide"] li.active a, [data-control="slide"] li a:hover {
+  background: #361d49;
+}
+
+.arrow-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.arrow-nav button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  background: #361d49 url('img/section-projetos/arrow.svg') center center no-repeat;
+}
+
+.arrow-nav button.prev {
+  transform: rotate(-180deg);
+}
+/* PROJETO FIM */
+
+/* CERTIFICADO INÍCIO */
+.sec-certificado {
+  display: block;
+  max-width: 100%;
+  height: 600px;
+  background: #6653df url('img/section-certificados/vetor-origamid.svg') center center no-repeat;
+  background-size: max-height;
+  ;
+}
+
+.titulo-certificado h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: Fira Sans;
+  padding-top: 20px;
+  letter-spacing:3px;
+}
+
+.titulo-certificado h1::after {
+  content: '';
+  display: flex;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 5px auto;
+}
+
+.slide-certificado img {
+  margin: 40px auto;
+}
+
+[data-slide]{
+  position:relative;
+  margin: 0 auto;
+}
+
+[data-slide]>*{
+  position:absolute;
+  top:0;
+  opacity:0;
+  pointer-events:none;
+}
+
+[data-slide]>.active{
+    position:relative;
+    opacity:1;
+    transition:opacity 1s;
+    z-index:1;
+    pointer-events:auto;
+  }
+  /* CERTIFICADO FIM */
+
+  /* CONTATO INICIO */
+.sec-contato {
+  margin-top: 30px;
+  max-width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+  .sec-contato h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: Fira Sans;
+    /* padding-top: 20px; */
+    letter-spacing:3px;
+  }
+
+  .sec-contato h1::after {
+    content: '';
+    display: flex;
+    width: 60px;
+    height: 3px;
+    background: #6653DF;
+    margin: 5px auto;
+  }
+
+  .meus-contatos {
+    display: block;
+    font-family: Fira Sans;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 15%;
+  }
+
+  .meus-contatos li {
+    padding: 10px;
+  }
+
+  .meus-contatos li::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 8px;
+    background: #361d49;
+    position: relative;
+    margin-right: 8px;
+  }
+
+  .redes-sociais {
+    margin-left: 55%;
+    margin-top: -15%;
+    padding: 40px;
+  }
+
+  .redes-sociais p {
+    text-transform: uppercase;
+    font-family: Fira Sans;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-left: 7%;
+  }
+
+.redes-sociais ul {
+  display: flex;
+  margin-top: 10px;
+}
+
+.icone-rede li a img {
+  filter: grayscale(100%) opacity(0.5);
+  transition: 1s;
+}
+
+.icone-rede li a img:hover {
+  filter: grayscale(0%) opacity(1);
+  transition-duration: 1s;
+  transform: scale(1.5) rotate(-360deg);
+}
+.apresenta-contato {
+  margin-right: 40%;
+}
+/* CONTATO FIM */
+
+/* FOOTER INICIO */
+.footer {
+  width: 100%;
+  height: 60px;
+  background: black;
+}
+
+.footer p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+}
