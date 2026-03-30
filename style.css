@@ -229,7 +229,7 @@ section{padding:88px 0}
 .stag .si{font-size:.95rem}
 
 /* CONTACT */
-.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.contact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .ccrd{border-radius:var(--rl);border:1px solid var(--border);background:var(--bgcard);padding:26px;transition:var(--ease);display:flex;flex-direction:column;position:relative;overflow:hidden}
 .ccrd:hover{transform:translateY(-4px);border-color:var(--a)}
 .ccrd::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--a),var(--a2));transform:scaleX(0);transition:var(--ease);transform-origin:left}
@@ -239,6 +239,7 @@ section{padding:88px 0}
 .ccrd p{color:var(--muted2);font-size:.86rem;margin-bottom:16px;flex:1}
 .ccrd a.clink{color:var(--a);font-weight:600;font-size:.86rem;display:inline-flex;align-items:center;gap:5px;transition:var(--ease)}
 .ccrd a.clink:hover{text-decoration:underline}
+.ccrd a.clink-wa{color:#25D366}
 
 /* FOOTER */
 .footer{border-top:1px solid var(--border);padding:36px 24px;background:var(--bg2)}
@@ -270,10 +271,11 @@ section{padding:88px 0}
   section{padding:68px 0}
 }
 @media(max-width:620px){
-  .wrap{padding:0 16px}
+  .wrap{padding:0 18px}
   .hero-in{padding:48px 0}
   .hero-cta{flex-direction:column;align-items:stretch}
   .bprim,.bout{justify-content:center}
   .ps-banner{padding:24px}
   .footer-in{flex-direction:column;text-align:center}
+  .about-hero{gap:20px}
 }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,528 +9,517 @@
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-  <!-- NAV -->
-  <nav class="nav">
-    <div class="nav-in">
-      <a href="#home" class="brand">
-        <div class="brand-logo">RR</div>
-        <span>Rafael Rocha</span>
-      </a>
-      <div class="nav-links">
-        <a class="nl" href="#about" data-i18n="navAbout">Sobre</a>
-        <a class="nl" href="#specialties" data-i18n="navSpec">Especialidades</a>
-        <a class="nl" href="#processsurge" data-i18n="navPS">ProcessSurge</a>
-        <a class="nl" href="#cases" data-i18n="navCases">Impacto</a>
-        <a class="nl" href="#career" data-i18n="navCareer">Carreira</a>
-        <a class="nl" href="#stack" data-i18n="navStack">Stack</a>
-        <a class="nl" href="#contact" data-i18n="navContact">Contato</a>
-      </div>
-      <div class="nav-ctrls">
-        <button class="btn-icon" id="langBtn">EN</button>
-        <button class="btn-icon" id="themeBtn" aria-label="Alternar tema">&#9790;</button>
-        <a class="nav-cta" href="#contact" data-i18n="navCta">Vamos conversar</a>
-        <button class="btn-icon hamburger" id="hamBtn" aria-label="Menu">&#9776;</button>
-      </div>
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-in">
+    <a href="#home" class="brand">
+      <div class="brand-logo">RR</div>
+      <span>Rafael Rocha</span>
+    </a>
+    <div class="nav-links">
+      <a class="nl" href="#about" data-i18n="navAbout">Sobre</a>
+      <a class="nl" href="#specialties" data-i18n="navSpec">Especialidades</a>
+      <a class="nl" href="#processsurge" data-i18n="navPS">ProcessSurge</a>
+      <a class="nl" href="#cases" data-i18n="navCases">Impacto</a>
+      <a class="nl" href="#career" data-i18n="navCareer">Carreira</a>
+      <a class="nl" href="#stack" data-i18n="navStack">Stack</a>
+      <a class="nl" href="#contact" data-i18n="navContact">Contato</a>
     </div>
-  </nav>
-
-  <!-- MOBILE NAV -->
-  <div id="mobnav">
-    <a class="mnl" href="#about" onclick="closeMob()" data-i18n="navAbout">Sobre</a>
-    <a class="mnl" href="#specialties" onclick="closeMob()" data-i18n="navSpec">Especialidades</a>
-    <a class="mnl" href="#processsurge" onclick="closeMob()" data-i18n="navPS">ProcessSurge</a>
-    <a class="mnl" href="#cases" onclick="closeMob()" data-i18n="navCases">Impacto</a>
-    <a class="mnl" href="#career" onclick="closeMob()" data-i18n="navCareer">Carreira</a>
-    <a class="mnl" href="#stack" onclick="closeMob()" data-i18n="navStack">Stack</a>
-    <a class="mnl" href="#contact" onclick="closeMob()" data-i18n="navContact">Contato</a>
-    <button class="mob-close" onclick="closeMob()">&#10005; Fechar</button>
+    <div class="nav-ctrls">
+      <button class="btn-icon" id="langBtn">EN</button>
+      <button class="btn-icon" id="themeBtn" aria-label="Alternar tema">&#9790;</button>
+      <a class="nav-cta" href="#contact" data-i18n="navCta">Vamos conversar</a>
+      <button class="btn-icon hamburger" id="hamBtn" aria-label="Menu">&#9776;</button>
+    </div>
   </div>
+</nav>
 
-  <!-- HERO -->
-  <header id="home" class="hero">
-    <div class="wrap hero-in">
+<!-- MOBILE NAV -->
+<div id="mobnav">
+  <a class="mnl" href="#about" onclick="closeMob()" data-i18n="navAbout">Sobre</a>
+  <a class="mnl" href="#specialties" onclick="closeMob()" data-i18n="navSpec">Especialidades</a>
+  <a class="mnl" href="#processsurge" onclick="closeMob()" data-i18n="navPS">ProcessSurge</a>
+  <a class="mnl" href="#cases" onclick="closeMob()" data-i18n="navCases">Impacto</a>
+  <a class="mnl" href="#career" onclick="closeMob()" data-i18n="navCareer">Carreira</a>
+  <a class="mnl" href="#stack" onclick="closeMob()" data-i18n="navStack">Stack</a>
+  <a class="mnl" href="#contact" onclick="closeMob()" data-i18n="navContact">Contato</a>
+  <button class="mob-close" onclick="closeMob()">&#10005; Fechar</button>
+</div>
+
+<!-- HERO -->
+<header id="home" class="hero">
+  <div class="wrap hero-in">
+    <div>
+      <div class="hero-badge"><span class="bdot"></span><span data-i18n="heroBadge">Analista de Dados · BI & Automação</span></div>
+      <h1 data-i18n="heroTitle">Dados e operação com <span class="hl">leitura executiva</span>, direção e resultado.</h1>
+      <p class="hero-sub" data-i18n="heroSub">Estruturo indicadores, dashboards e análises que ajudam empresas a enxergar melhor sua operação, tomar decisões com mais segurança e acompanhar evolução com clareza.</p>
+      <div class="hero-cta">
+        <a class="bprim" href="assets/Curriculo_Rafael_Rocha_PT.pdf" download data-i18n="heroBtn1">Currículo PT</a>
+        <a class="bout" href="assets/Rafael_Rocha_Resume_EN.pdf" download data-i18n="heroBtn2">Resume EN</a>
+        <a class="bout" href="https://www.linkedin.com/in/rafael-rocha-89271021b/" target="_blank" rel="noopener" data-i18n="heroBtn3">LinkedIn</a>
+      </div>
+      <div class="hero-note">
+        <span>&#8599;</span>
+        <span data-i18n="heroNoteText">Cofundador da</span>&nbsp;<a href="https://www.processsurge.com/pt" target="_blank" rel="noopener">ProcessSurge</a>
+      </div>
+    </div>
+
+    <div class="hcard">
+      <div class="hcard-top">
+        <div class="avatar">RR</div>
+        <div>
+          <small data-i18n="hcardKicker">posição atual</small>
+          <h2 data-i18n="hcardTitle">Analista de Dados | BI & Automação</h2>
+        </div>
+      </div>
+      <div class="hcard-item">
+        <div class="hii">&#9670;</div>
+        <div>
+          <strong data-i18n="hc1t">Dashboards e leitura executiva</strong>
+          <span data-i18n="hc1d">Painéis para acompanhamento de operação, performance e indicadores estratégicos.</span>
+        </div>
+      </div>
+      <div class="hcard-item">
+        <div class="hii">&#8644;</div>
+        <div>
+          <strong data-i18n="hc2t">Análise de performance</strong>
+          <span data-i18n="hc2d">Diagnósticos de volumetria, retenção, jornada e oportunidades de melhoria.</span>
+        </div>
+      </div>
+      <div class="hcard-item">
+        <div class="hii">&#9881;</div>
+        <div>
+          <strong data-i18n="hc3t">Automação e estruturação</strong>
+          <span data-i18n="hc3d">Tratamento de bases, relatórios automatizados, fluxos de dados e integração.</span>
+        </div>
+      </div>
+      <div class="hcard-item">
+        <div class="hii">&#8599;</div>
+        <div>
+          <strong data-i18n="hc4t">Visão de negócio</strong>
+          <span data-i18n="hc4d">Cofundador da ProcessSurge. Dados, automação e inteligência aplicada.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- SOBRE -->
+<section id="about">
+  <div class="wrap">
+    <div class="slbl rev" data-i18n="aboutLabel">Sobre</div>
+    <h2 class="stitle rev" data-i18n="aboutTitle">Sobre mim</h2>
+
+    <div class="about-hero rev">
+      <div class="about-photo-wrap">
+        <img class="about-photo" src="assets/rafael-rocha.jpeg" alt="Rafael Rocha" />
+        <span class="about-photo-badge" data-i18n="photoBadge">Analista de Dados</span>
+      </div>
+      <p class="about-intro" data-i18n="aboutIntro">Analista de Dados na <strong>Hi Platform</strong> e cofundador da <strong>ProcessSurge</strong>. Atuo com análise de performance, inteligência operacional, BI, dashboards executivos e automação aplicada ao negócio. Meu trabalho não é só mostrar indicadores, é organizar a leitura certa, conectar contexto aos números e transformar dado bruto em clareza para quem precisa decidir.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="card rev">
+        <div class="aicon">&#9670;</div>
+        <h3 data-i18n="aSkillsTitle">Atuação principal</h3>
+        <ul class="about-list">
+          <li data-i18n="aSkill1">Dashboards executivos e leitura de performance</li>
+          <li data-i18n="aSkill2">Análise de volumetria, retenção, recontato e jornada</li>
+          <li data-i18n="aSkill3">Automação de relatórios e estruturação de métricas</li>
+          <li data-i18n="aSkill4">SQL, Python, Apache Superset e PostgreSQL</li>
+          <li data-i18n="aSkill5">Estudos analíticos sobre bases massivas de dados</li>
+        </ul>
+      </div>
+      <div class="card rev rd1">
+        <div class="aicon">&#9733;</div>
+        <h3 data-i18n="aValuesTitle">Valores</h3>
+        <p data-i18n="aValuesBody">Dado bom é dado que gera decisão. Meu foco é entregar leitura clara, com profundidade suficiente para sustentar discussão de negócio e direcionar ação. Automação e técnica são meios, o resultado é o que importa.</p>
+      </div>
+      <div class="card rev rd2">
+        <div class="aicon">&#127891;</div>
+        <h3 data-i18n="aEduTitle">Formação</h3>
+        <ul class="about-list">
+          <li data-i18n="aEdu1">Bacharel em Engenharia de Software, UNOPAR</li>
+        </ul>
+      </div>
+      <div class="card about-stack-card rev rd3">
+        <div class="aicon">&#128187;</div>
+        <h3 data-i18n="aStackTitle">Stack principal</h3>
+        <p class="about-stack-text">SQL · Python · PostgreSQL<br>Apache Superset · Power BI · Looker Studio<br>Excel · PowerPoint · Google Sheets<br>n8n · Apps Script · Prompt Engineering<br>ChatGPT · Claude · Gemini</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ESPECIALIDADES -->
+<section id="specialties" class="bg2">
+  <div class="wrap">
+    <div class="slbl rev" data-i18n="specLabel">Especialidades</div>
+    <h2 class="stitle rev" data-i18n="specTitle">O que eu entrego na prática.</h2>
+    <p class="ssub rev" data-i18n="specSub">Profundidade analítica com clareza de comunicação e senso de aplicação real para o negócio.</p>
+    <div class="spec-grid">
+      <article class="card spec-card rev">
+        <div class="spec-icon">&#9636;</div>
+        <h3 data-i18n="spec1t">BI e dashboards executivos</h3>
+        <p data-i18n="spec1d">Construção de painéis para acompanhar operação, performance e indicadores estratégicos. Foco em leitura clara, utilidade prática e velocidade de decisão.</p>
+      </article>
+      <article class="card spec-card rev rd1">
+        <div class="spec-icon">&#9733;</div>
+        <h3 data-i18n="spec2t">Análise de performance e inteligência operacional</h3>
+        <p data-i18n="spec2d">Leitura de volumes, comportamento, retenção, recontato, produtividade e jornada, sempre com foco em diagnóstico, direção e contexto de negócio.</p>
+      </article>
+      <article class="card spec-card rev rd2">
+        <div class="spec-icon">&#8634;</div>
+        <h3 data-i18n="spec3t">Automação e estruturação de dados</h3>
+        <p data-i18n="spec3d">Tratamento de bases, organização de dados e fluxos automatizados que conectam coleta, análise e visualização com mais eficiência e escala.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESSSURGE -->
+<section id="processsurge">
+  <div class="wrap">
+    <div class="ps-banner rev">
+      <div class="slbl" data-i18n="psLabel">ProcessSurge</div>
+      <div class="ps-header">
+        <div>
+          <div class="ps-role" data-i18n="psRole">Cofundador &middot; Camada analítica e de dados</div>
+          <div class="ps-title" data-i18n="psTitle">Process<em>Surge</em></div>
+          <p class="ps-tagline" data-i18n="psTagline">Automação que move receita.</p>
+        </div>
+        <div class="ps-meta">
+          <div class="ps-meta-item"><span class="ps-meta-label" data-i18n="psMetaRole">Papel</span><span class="ps-meta-value" data-i18n="psMetaRoleVal">Co-founder</span></div>
+          <div class="ps-meta-item"><span class="ps-meta-label" data-i18n="psMetaSince">Desde</span><span class="ps-meta-value">2026</span></div>
+          <div class="ps-meta-item"><span class="ps-meta-label" data-i18n="psMetaFocus">Foco</span><span class="ps-meta-value" data-i18n="psMetaFocusVal">Dados &amp; BI</span></div>
+        </div>
+      </div>
+
+      <div class="ps-grid">
+        <div>
+          <p class="ps-body" data-i18n="psBody1">A ProcessSurge entrega automação, dados e inteligência aplicada para empresas que precisam de estrutura real para crescer. Integramos operação, atendimento, marketplaces e fluxos de venda com tecnologia que organiza, mensura e escala. Cada solucao nasce de um problema concreto e entrega resultado mensuravel.</p>
+          <div class="ps-chips">
+            <span class="ps-chip" data-i18n="psChip1">Automacao</span>
+            <span class="ps-chip" data-i18n="psChip2">Dados e BI</span>
+            <span class="ps-chip" data-i18n="psChip3">IA aplicada</span>
+            <span class="ps-chip" data-i18n="psChip4">Integracao</span>
+            <span class="ps-chip" data-i18n="psChip5">E-commerce</span>
+            <span class="ps-chip">n8n</span>
+            <span class="ps-chip">Python</span>
+          </div>
+        </div>
+        <div class="ps-inner-card">
+          <span class="kicker" data-i18n="psKicker">onde eu entro</span>
+          <p class="ps-body" data-i18n="psBody2">Sou responsavel pela camada de dados e inteligencia da operacao. Estruturo indicadores de performance, dashboards executivos, diagnosticos sobre bases de clientes e recortes analiticos que sustentam decisoes reais. Cada entrega precisa ter um porque claro e gerar direcao pratica para o negocio do cliente.</p>
+          <div class="ps-cta">
+            <a class="bprim" href="https://www.processsurge.com/pt" target="_blank" rel="noopener" data-i18n="psBtn">Visitar site da ProcessSurge</a>
+            <a class="bout" href="https://wa.me/5511936205854" target="_blank" rel="noopener" data-i18n="psBtn2">Falar com a ProcessSurge</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASOS DE IMPACTO -->
+<section id="cases" class="bg2">
+  <div class="wrap">
+    <div class="slbl rev" data-i18n="casesLabel">Impacto</div>
+    <h2 class="stitle rev" data-i18n="casesTitle">Resultados construídos na prática.</h2>
+    <p class="ssub rev" data-i18n="casesSub">Recortes de frentes em que análise, estruturação e execução técnica geraram eficiência real, economia e direção de negócio.</p>
+    <div class="cases-grid">
+      <!-- CASE 1 -->
+      <article class="case-card rev">
+        <div class="case-visual">
+          <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:rgba(59,206,172,.15)"/><stop offset="100%" style="stop-color:rgba(77,168,218,.15)"/></linearGradient></defs>
+            <rect x="30" y="30" width="140" height="90" rx="8" fill="url(#g1)" stroke="rgba(59,206,172,.3)" stroke-width="1"/>
+            <rect x="40" y="42" width="55" height="6" rx="2" fill="rgba(59,206,172,.4)"/>
+            <rect x="40" y="54" width="40" height="4" rx="1" fill="rgba(59,206,172,.2)"/>
+            <rect x="40" y="66" width="120" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <rect x="40" y="74" width="90" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <rect x="40" y="82" width="110" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <rect x="40" y="96" width="50" height="14" rx="4" fill="rgba(59,206,172,.25)"/>
+            <line x1="195" y1="75" x2="230" y2="75" stroke="rgba(59,206,172,.5)" stroke-width="2" stroke-dasharray="4"/>
+            <polygon points="228,70 238,75 228,80" fill="rgba(59,206,172,.5)"/>
+            <rect x="240" y="30" width="140" height="90" rx="8" fill="url(#g1)" stroke="rgba(77,168,218,.3)" stroke-width="1"/>
+            <rect x="250" y="42" width="55" height="6" rx="2" fill="rgba(77,168,218,.4)"/>
+            <rect x="250" y="54" width="40" height="4" rx="1" fill="rgba(77,168,218,.2)"/>
+            <rect x="250" y="66" width="60" height="18" rx="3" fill="rgba(77,168,218,.12)"/>
+            <rect x="315" y="66" width="55" height="18" rx="3" fill="rgba(59,206,172,.12)"/>
+            <rect x="250" y="90" width="120" height="20" rx="3" fill="rgba(255,255,255,.04)"/>
+            <rect x="256" y="95" width="30" height="10" rx="2" fill="rgba(59,206,172,.3)"/>
+            <rect x="292" y="98" width="22" height="7" rx="2" fill="rgba(77,168,218,.25)"/>
+            <rect x="320" y="96" width="40" height="9" rx="2" fill="rgba(59,206,172,.2)"/>
+            <text x="200" y="148" text-anchor="middle" fill="rgba(59,206,172,.5)" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500">economia recorrente de alto impacto</text>
+          </svg>
+        </div>
+        <div class="case-body">
+          <h3 data-i18n="case1t">Migração de plataforma de BI com redução relevante de custo recorrente</h3>
+          <p data-i18n="case1d">Condução da migração de toda a camada de dashboards e indicadores para uma nova estrutura analítica, preservando a leitura executiva e eliminando a dependência de uma ferramenta com custo mensal elevado. A mudança gerou uma economia recorrente significativa no orçamento de tecnologia, com impacto direto no resultado da operação.</p>
+          <div class="case-impact" data-i18n="case1i">&#8599; Economia recorrente significativa no orçamento de tecnologia</div>
+          <div class="case-tags"><span class="ctag">BI</span><span class="ctag" data-i18n="case1tag2">Migração</span><span class="ctag" data-i18n="case1tag3">Eficiência</span></div>
+        </div>
+      </article>
+      <!-- CASE 2 -->
+      <article class="case-card rev rd1">
+        <div class="case-visual">
+          <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:rgba(77,168,218,.15)"/><stop offset="100%" style="stop-color:rgba(59,206,172,.12)"/></linearGradient></defs>
+            <rect x="30" y="25" width="120" height="50" rx="6" fill="url(#g2)" stroke="rgba(77,168,218,.25)" stroke-width="1"/>
+            <rect x="38" y="33" width="50" height="4" rx="1" fill="rgba(77,168,218,.4)"/>
+            <rect x="38" y="41" width="95" height="3" rx="1" fill="rgba(255,255,255,.08)"/>
+            <rect x="38" y="48" width="80" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <rect x="38" y="55" width="100" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <rect x="30" y="82" width="120" height="50" rx="6" fill="url(#g2)" stroke="rgba(77,168,218,.25)" stroke-width="1"/>
+            <rect x="38" y="90" width="50" height="4" rx="1" fill="rgba(77,168,218,.4)"/>
+            <rect x="38" y="98" width="95" height="3" rx="1" fill="rgba(255,255,255,.08)"/>
+            <rect x="38" y="105" width="80" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <rect x="38" y="112" width="100" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <line x1="160" y1="60" x2="200" y2="90" stroke="rgba(59,206,172,.3)" stroke-width="1.5"/>
+            <line x1="160" y1="100" x2="200" y2="90" stroke="rgba(59,206,172,.3)" stroke-width="1.5"/>
+            <circle cx="205" cy="90" r="16" fill="rgba(59,206,172,.1)" stroke="rgba(59,206,172,.3)" stroke-width="1.5"/>
+            <text x="205" y="94" text-anchor="middle" fill="rgba(59,206,172,.6)" font-family="IBM Plex Mono,monospace" font-size="11" font-weight="600">&#9670;</text>
+            <line x1="225" y1="90" x2="260" y2="70" stroke="rgba(59,206,172,.3)" stroke-width="1.5"/>
+            <line x1="225" y1="90" x2="260" y2="110" stroke="rgba(59,206,172,.3)" stroke-width="1.5"/>
+            <rect x="265" y="45" width="110" height="50" rx="6" fill="rgba(59,206,172,.07)" stroke="rgba(59,206,172,.25)" stroke-width="1"/>
+            <rect x="273" y="53" width="40" height="4" rx="1" fill="rgba(59,206,172,.4)"/>
+            <rect x="273" y="61" width="90" height="3" rx="1" fill="rgba(255,255,255,.08)"/>
+            <rect x="273" y="68" width="70" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <rect x="273" y="78" width="45" height="10" rx="3" fill="rgba(59,206,172,.2)"/>
+            <rect x="265" y="102" width="110" height="50" rx="6" fill="rgba(59,206,172,.07)" stroke="rgba(59,206,172,.25)" stroke-width="1"/>
+            <rect x="273" y="110" width="40" height="4" rx="1" fill="rgba(59,206,172,.4)"/>
+            <rect x="273" y="118" width="90" height="3" rx="1" fill="rgba(255,255,255,.08)"/>
+            <rect x="273" y="125" width="70" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <rect x="273" y="135" width="45" height="10" rx="3" fill="rgba(59,206,172,.2)"/>
+            <text x="200" y="165" text-anchor="middle" fill="rgba(77,168,218,.5)" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500">40+ GB &#8594; insights de alto valor</text>
+          </svg>
+        </div>
+        <div class="case-body">
+          <h3 data-i18n="case2t">Diagnóstico conversacional em larga escala com geração de receita</h3>
+          <p data-i18n="case2d">Estudo analítico profundo sobre uma base massiva de dados conversacionais, extraindo padrões de comportamento, gargalos de atendimento e oportunidades de melhoria que geraram receita pontual relevante para a empresa. O valor não esteve no processamento técnico, mas no diagnóstico, na inteligência extraída e na aplicabilidade dos insights.</p>
+          <div class="case-impact" data-i18n="case2i">&#8599; Estudo monetizado com impacto direto no negócio</div>
+          <div class="case-tags"><span class="ctag">Analytics</span><span class="ctag" data-i18n="case2tag2">Diagnóstico</span><span class="ctag" data-i18n="case2tag3">Receita</span></div>
+        </div>
+      </article>
+      <!-- CASE 3 -->
+      <article class="case-card rev rd2">
+        <div class="case-visual">
+          <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="g3" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgba(59,206,172,.12)"/><stop offset="100%" style="stop-color:rgba(77,168,218,.12)"/></linearGradient></defs>
+            <rect x="25" y="20" width="350" height="140" rx="10" fill="url(#g3)" stroke="rgba(59,206,172,.18)" stroke-width="1"/>
+            <rect x="35" y="30" width="80" height="6" rx="2" fill="rgba(59,206,172,.4)"/>
+            <rect x="35" y="42" width="50" height="4" rx="1" fill="rgba(59,206,172,.2)"/>
+            <rect x="35" y="58" width="160" height="92" rx="6" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+            <line x1="50" y1="130" x2="50" y2="72" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+            <line x1="35" y1="130" x2="195" y2="130" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+            <rect x="58" y="105" width="14" height="25" rx="2" fill="rgba(59,206,172,.3)"/>
+            <rect x="78" y="90" width="14" height="40" rx="2" fill="rgba(77,168,218,.3)"/>
+            <rect x="98" y="98" width="14" height="32" rx="2" fill="rgba(59,206,172,.25)"/>
+            <rect x="118" y="82" width="14" height="48" rx="2" fill="rgba(77,168,218,.25)"/>
+            <rect x="138" y="75" width="14" height="55" rx="2" fill="rgba(59,206,172,.35)"/>
+            <rect x="158" y="85" width="14" height="45" rx="2" fill="rgba(77,168,218,.3)"/>
+            <rect x="178" y="70" width="14" height="60" rx="2" fill="rgba(59,206,172,.4)"/>
+            <rect x="210" y="58" width="150" height="40" rx="6" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+            <rect x="220" y="66" width="35" height="4" rx="1" fill="rgba(59,206,172,.35)"/>
+            <rect x="220" y="74" width="130" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <rect x="220" y="81" width="100" height="3" rx="1" fill="rgba(255,255,255,.05)"/>
+            <rect x="220" y="88" width="60" height="3" rx="1" fill="rgba(255,255,255,.04)"/>
+            <rect x="210" y="108" width="150" height="40" rx="6" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+            <circle cx="228" cy="120" r="6" fill="rgba(59,206,172,.3)"/>
+            <rect x="240" y="116" width="50" height="3" rx="1" fill="rgba(255,255,255,.1)"/>
+            <rect x="240" y="123" width="110" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+            <circle cx="228" cy="138" r="6" fill="rgba(77,168,218,.3)"/>
+            <rect x="240" y="134" width="40" height="3" rx="1" fill="rgba(255,255,255,.1)"/>
+            <rect x="240" y="141" width="90" height="3" rx="1" fill="rgba(255,255,255,.06)"/>
+          </svg>
+        </div>
+        <div class="case-body">
+          <h3 data-i18n="case3t">Performance de bots e canais digitais traduzida em direção executiva</h3>
+          <p data-i18n="case3d">Análises recorrentes de volumetria, retenção, recontato, abandono, CSAT e jornada do usuário em bots e canais digitais. Cada entrega conecta dados operacionais a leituras que ajudam gestores a priorizar ajustes, discutir evolução com stakeholders e tomar decisões com base concreta.</p>
+          <div class="case-impact" data-i18n="case3i">&#8599; Entregas recorrentes que orientam decisão operacional</div>
+          <div class="case-tags"><span class="ctag" data-i18n="case3tag1">Performance</span><span class="ctag" data-i18n="case3tag2">Métricas</span><span class="ctag" data-i18n="case3tag3">Decisão</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CARREIRA -->
+<section id="career">
+  <div class="wrap">
+    <div class="slbl rev" data-i18n="careerLabel">Experiência</div>
+    <h2 class="stitle rev" data-i18n="careerTitle">Trajetória construída em cima de dados, produto e operação.</h2>
+    <p class="ssub rev" data-i18n="careerSub">A evolução do escopo e a forma como meu trabalho foi se conectando cada vez mais à tomada de decisão.</p>
+    <div class="timeline">
+      <div class="ti">
+        <div class="tdot"></div>
+        <div class="tperiod" data-i18n="t3p">2026 · atual</div>
+        <div class="ttitle" data-i18n="t3t">Cofundador · Dados, BI e inteligência operacional</div>
+        <div class="tcompany"><a href="https://www.processsurge.com/pt" target="_blank" rel="noopener" style="color:var(--a)">ProcessSurge</a></div>
+        <div class="tdesc" data-i18n="t3d">Estruturação da camada analítica da operação com foco em indicadores, dashboards, leitura de performance e integração com soluções de automação.</div>
+      </div>
+      <div class="ti">
+        <div class="tdot"></div>
+        <div class="tperiod" data-i18n="t1p">2025 · atual</div>
+        <div class="ttitle" data-i18n="t1t">Analista de Dados</div>
+        <div class="tcompany">Hi Platform</div>
+        <div class="tdesc" data-i18n="t1d">Atuação com análise de performance, dashboards executivos, métricas, SQL, automação de relatórios e leituras conectadas à operação e aos clientes.</div>
+        <ul class="tlist">
+          <li data-i18n="t1l1">Dashboards e relatórios de performance para bots, canais digitais e operação de atendimento.</li>
+          <li data-i18n="t1l2">Análises estruturadas com SQL e Python em ambiente PostgreSQL e Apache Superset.</li>
+          <li data-i18n="t1l3">Migração de plataforma de BI com redução significativa de custo recorrente em tecnologia.</li>
+          <li data-i18n="t1l4">Estudos pontuais de alto valor sobre bases conversacionais massivas.</li>
+        </ul>
+      </div>
+      <div class="ti">
+        <div class="tdot"></div>
+        <div class="tperiod" data-i18n="t2p">2024 · 2025</div>
+        <div class="ttitle" data-i18n="t2t">Estagiário em BI</div>
+        <div class="tcompany">Hi Platform</div>
+        <div class="tdesc" data-i18n="t2d">Base forte em organização de dados, construção de relatórios, visualização e apoio analítico a projetos de negócio e performance.</div>
+      </div>
+      <div class="ti">
+        <div class="tdot"></div>
+        <div class="tperiod" data-i18n="t4p">Experiência anterior</div>
+        <div class="ttitle" data-i18n="t4t">Assistente de Operações</div>
+        <div class="tcompany">AppJusto</div>
+        <div class="tdesc" data-i18n="t4d">Atuação multidisciplinar em operações, suporte, dados e relacionamento, com contato direto com entregadores, restaurantes e consumidores finais.</div>
+        <ul class="tlist">
+          <li data-i18n="t4l1">Suporte e helpdesk para entregadores, restaurantes e consumidores do app.</li>
+          <li data-i18n="t4l2">Dashboards no Looker Studio para acompanhamento operacional nas três frentes.</li>
+          <li data-i18n="t4l3">Prevenção de churn via escuta ativa e quebra de objeções com donos de restaurantes.</li>
+          <li data-i18n="t4l4">Automação de disparos para prospecção de novos entregadores na plataforma.</li>
+          <li data-i18n="t4l5">Atuação em prevenção de fraudes.</li>
+        </ul>
+      </div>
+      <div class="ti">
+        <div class="tdot"></div>
+        <div class="tperiod" data-i18n="t5p">Formação</div>
+        <div class="ttitle" data-i18n="t5t">Bacharel em Engenharia de Software</div>
+        <div class="tcompany">UNOPAR</div>
+        <div class="tdesc" data-i18n="t5d">Graduação concluída, somando base técnica à atuação prática já consolidada em dados, BI e soluções digitais.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="stack" class="bg2">
+  <div class="wrap">
+    <div class="slbl rev" data-i18n="stackLabel">Stack</div>
+    <h2 class="stitle rev" data-i18n="stackTitle">Stack e ferramentas do dia a dia.</h2>
+    <p class="ssub rev" data-i18n="stackSub">As ferramentas e frentes que compõem minha atuação hoje.</p>
+    <div class="stack-cats rev rd1">
       <div>
-        <div class="hero-badge"><span class="bdot"></span><span data-i18n="heroBadge">Analista de Dados · BI & Automação</span></div>
-        <h1 data-i18n="heroTitle">Dados e operação com <span class="hl">leitura executiva</span>, direção e resultado.</h1>
-        <p class="hero-sub" data-i18n="heroSub">Estruturo indicadores, dashboards e análises que ajudam empresas a enxergar melhor sua operação, tomar decisões com mais segurança e acompanhar evolução com clareza.</p>
-        <div class="hero-cta">
-          <a class="bprim" href="assets/Curriculo_Rafael_Rocha_PT.pdf" download data-i18n="heroBtn1">Currículo PT</a>
-          <a class="bout" href="assets/Rafael_Rocha_Resume_EN.pdf" download data-i18n="heroBtn2">Resume EN</a>
-          <a class="bout" href="https://www.linkedin.com/in/rafael-rocha-89271021b/" target="_blank" rel="noopener" data-i18n="heroBtn3">LinkedIn</a>
-        </div>
-        <div class="hero-note">
-          <span>&#8599;</span>
-          <span data-i18n="heroNoteText">Cofundador da</span>&nbsp;<a href="https://www.processsurge.com/pt" target="_blank" rel="noopener">ProcessSurge</a>
-        </div>
-      </div>
-
-      <div class="hcard">
-        <div class="hcard-top">
-          <div class="avatar">RR</div>
-          <div>
-            <small data-i18n="hcardKicker">posição atual</small>
-            <h2 data-i18n="hcardTitle">Analista de Dados | BI & Automação</h2>
-          </div>
-        </div>
-        <div class="hcard-item">
-          <div class="hii">&#9670;</div>
-          <div>
-            <strong data-i18n="hc1t">Dashboards e leitura executiva</strong>
-            <span data-i18n="hc1d">Painéis para acompanhamento de operação, performance e indicadores estratégicos.</span>
-          </div>
-        </div>
-        <div class="hcard-item">
-          <div class="hii">&#8644;</div>
-          <div>
-            <strong data-i18n="hc2t">Análise de performance</strong>
-            <span data-i18n="hc2d">Diagnósticos de volumetria, retenção, jornada e oportunidades de melhoria.</span>
-          </div>
-        </div>
-        <div class="hcard-item">
-          <div class="hii">&#9881;</div>
-          <div>
-            <strong data-i18n="hc3t">Automação e estruturação</strong>
-            <span data-i18n="hc3d">Tratamento de bases, relatórios automatizados, fluxos de dados e integração.</span>
-          </div>
-        </div>
-        <div class="hcard-item">
-          <div class="hii">&#8599;</div>
-          <div>
-            <strong data-i18n="hc4t">Visão de negócio</strong>
-            <span data-i18n="hc4d">Cofundador da ProcessSurge. Dados, automação e inteligência aplicada.</span>
-          </div>
+        <div class="scat-label" data-i18n="scatData">Dados e BI</div>
+        <div class="stags">
+          <span class="stag"><span class="si">&#128450;</span> SQL</span>
+          <span class="stag"><span class="si">&#128013;</span> Python</span>
+          <span class="stag"><span class="si">&#128202;</span> Apache Superset</span>
+          <span class="stag"><span class="si">&#128200;</span> Hi Boards</span>
+          <span class="stag"><span class="si">&#128203;</span> Google Sheets</span>
+          <span class="stag"><span class="si">&#128196;</span> Excel</span>
+          <span class="stag"><span class="si">&#128201;</span> Looker Studio</span>
+          <span class="stag"><span class="si">&#128202;</span> Power BI</span>
+          <span class="stag"><span class="si">&#128202;</span> Tableau</span>
+          <span class="stag"><span class="si">&#128196;</span> PowerPoint</span>
+          <span class="stag"><span class="si">&#128196;</span> Google Slides</span>
         </div>
       </div>
-    </div>
-  </header>
-
-  <!-- SOBRE -->
-  <section id="about">
-    <div class="wrap">
-      <div class="slbl rev" data-i18n="aboutLabel">Sobre</div>
-      <h2 class="stitle rev" data-i18n="aboutTitle">Sobre mim</h2>
-
-      <div class="about-hero rev">
-        <div class="about-photo-wrap">
-          <img class="about-photo" src="assets/rafael-rocha.jpeg" alt="Rafael Rocha" />
-          <span class="about-photo-badge" data-i18n="photoBadge">Analista de Dados</span>
+      <div>
+        <div class="scat-label" data-i18n="scatViz">Visualização e dashboards</div>
+        <div class="stags">
+          <span class="stag"><span class="si">&#9636;</span> <span data-i18n="tagExecDash">Dashboards executivos</span></span>
+          <span class="stag"><span class="si">&#128202;</span> <span data-i18n="tagKPIs">Métricas e KPIs</span></span>
+          <span class="stag"><span class="si">&#128214;</span> <span data-i18n="tagStorytelling">Storytelling analítico</span></span>
+          <span class="stag"><span class="si">&#128196;</span> <span data-i18n="tagReportAuto">Automação de relatórios</span></span>
         </div>
-        <p class="about-intro" data-i18n="aboutIntro">Analista de Dados na <strong>Hi Platform</strong> e cofundador da <strong>ProcessSurge</strong>. Atuo com análise de performance, inteligência operacional, BI, dashboards executivos e automação aplicada ao negócio. Meu trabalho não é só mostrar indicadores, é organizar a leitura certa, conectar contexto aos números e transformar dado bruto em clareza para quem precisa decidir.</p>
       </div>
-
-      <div class="about-grid">
-        <div class="card rev">
-          <div class="aicon">&#9670;</div>
-          <h3 data-i18n="aSkillsTitle">Atuação principal</h3>
-          <ul class="about-list">
-            <li data-i18n="aSkill1">Dashboards executivos e leitura de performance</li>
-            <li data-i18n="aSkill2">Análise de volumetria, retenção, recontato e jornada</li>
-            <li data-i18n="aSkill3">Automação de relatórios e estruturação de métricas</li>
-            <li data-i18n="aSkill4">SQL, Python, Apache Superset e PostgreSQL</li>
-            <li data-i18n="aSkill5">Estudos analíticos sobre bases massivas de dados</li>
-          </ul>
+      <div>
+        <div class="scat-label" data-i18n="scatAuto">Automação e integração</div>
+        <div class="stags">
+          <span class="stag"><span class="si">&#9889;</span> n8n</span>
+          <span class="stag"><span class="si">&#128187;</span> Apps Script</span>
+          <span class="stag"><span class="si">&#128279;</span> APIs</span>
+          <span class="stag"><span class="si">&#128295;</span> <span data-i18n="tagDataStruct">Estruturação de bases</span></span>
         </div>
-        <div class="card rev rd1">
-          <div class="aicon">&#9733;</div>
-          <h3 data-i18n="aValuesTitle">Valores</h3>
-          <p data-i18n="aValuesBody">Dado bom é dado que gera decisão. Meu foco é entregar leitura clara, com profundidade suficiente para sustentar discussão de negócio e direcionar ação. Automação e técnica são meios, o resultado é o que importa.</p>
+      </div>
+      <div>
+        <div class="scat-label" data-i18n="scatAI">IA e LLMs</div>
+        <div class="stags">
+          <span class="stag"><span class="si">&#129302;</span> ChatGPT</span>
+          <span class="stag"><span class="si">&#128172;</span> Claude</span>
+          <span class="stag"><span class="si">&#128142;</span> Gemini</span>
+          <span class="stag"><span class="si">&#127760;</span> Manus</span>
+          <span class="stag"><span class="si">&#128269;</span> DeepSeek</span>
+          <span class="stag"><span class="si">&#128270;</span> Perplexity</span>
+          <span class="stag"><span class="si">&#9997;</span> <span data-i18n="tagPromptEng">Prompt Engineering</span></span>
         </div>
-        <div class="card rev rd2">
-          <div class="aicon">&#127891;</div>
-          <h3 data-i18n="aEduTitle">Formação</h3>
-          <ul class="about-list">
-            <li data-i18n="aEdu1">Bacharel em Engenharia de Software pela UNOPAR, com trajetória construída na prática entre operação, atendimento, BI, dados e relacionamento com cliente.</li>
-          </ul>
-        </div>
-        <div class="card about-stack-card rev rd3">
-          <div class="aicon">&#128187;</div>
-          <h3 data-i18n="aStackTitle">Stack principal</h3>
-          <p class="about-stack-text">SQL · Python · PostgreSQL<br>Apache Superset · Power BI · Looker Studio<br>Excel · PowerPoint · Google Sheets<br>n8n · Apps Script · Prompt Engineering<br>ChatGPT · Claude · Gemini</p>
+      </div>
+      <div>
+        <div class="scat-label" data-i18n="scatWay">Forma de atuação</div>
+        <div class="stags">
+          <span class="stag"><span class="si">&#9670;</span> <span data-i18n="tagExecReading">Leitura executiva</span></span>
+          <span class="stag"><span class="si">&#128200;</span> <span data-i18n="tagPerfAnalysis">Análise de performance</span></span>
+          <span class="stag"><span class="si">&#8644;</span> <span data-i18n="tagBizSupport">Apoio à decisão</span></span>
+          <span class="stag"><span class="si">&#128203;</span> <span data-i18n="tagMetricStruct">Estruturação de métricas</span></span>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ESPECIALIDADES -->
-  <section id="specialties" class="bg2">
-    <div class="wrap">
-      <div class="slbl rev" data-i18n="specLabel">Especialidades</div>
-      <h2 class="stitle rev" data-i18n="specTitle">O que eu entrego na prática.</h2>
-      <p class="ssub rev" data-i18n="specSub">Profundidade analítica com clareza de comunicação e senso de aplicação real para o negócio.</p>
-      <div class="spec-grid">
-        <article class="card spec-card rev">
-          <div class="spec-icon">&#9636;</div>
-          <h3 data-i18n="spec1t">BI e dashboards executivos</h3>
-          <p data-i18n="spec1d">Construção de painéis para acompanhar operação, performance e indicadores estratégicos. Foco em leitura clara, utilidade prática e velocidade de decisão.</p>
-        </article>
-        <article class="card spec-card rev rd1">
-          <div class="spec-icon">&#9733;</div>
-          <h3 data-i18n="spec2t">Análise de performance e inteligência operacional</h3>
-          <p data-i18n="spec2d">Leitura de volumes, comportamento, retenção, recontato, produtividade e jornada, sempre com foco em diagnóstico, direção e contexto de negócio.</p>
-        </article>
-        <article class="card spec-card rev rd2">
-          <div class="spec-icon">&#8634;</div>
-          <h3 data-i18n="spec3t">Automação e estruturação de dados</h3>
-          <p data-i18n="spec3d">Tratamento de bases, organização de dados e fluxos automatizados que conectam coleta, análise e visualização com mais eficiência e escala.</p>
-        </article>
+<!-- CONTATO -->
+<section id="contact">
+  <div class="wrap">
+    <div class="slbl rev" data-i18n="contactLabel">Contato</div>
+    <h2 class="stitle rev" data-i18n="contactTitle">Aberto a oportunidades e projetos com direção clara.</h2>
+    <p class="ssub rev" data-i18n="contactSub">Para vagas ligadas a dados, BI e automação, ou para conversas estratégicas envolvendo a ProcessSurge.</p>
+    <div class="contact-grid">
+      <div class="ccrd rev">
+        <div class="cicon">&#9993;</div>
+        <h3 data-i18n="c1t">E-mail</h3>
+        <p data-i18n="c1d">Canal direto para oportunidades profissionais, apresentações e conversas objetivas.</p>
+        <a class="clink" href="mailto:rafaelolirocha@gmail.com">rafaelolirocha@gmail.com</a>
+      </div>
+      <div class="ccrd rev rd1">
+        <div class="cicon">&#128172;</div>
+        <h3 data-i18n="cWt">WhatsApp</h3>
+        <p data-i18n="cWd">Falar direto comigo. Respondo rápido.</p>
+        <a class="clink clink-wa" href="https://wa.me/5532998147576" target="_blank" rel="noopener">WhatsApp &#8594;</a>
+      </div>
+      <div class="ccrd rev rd2">
+        <div class="cicon">&#128279;</div>
+        <h3 data-i18n="c2t">LinkedIn</h3>
+        <p data-i18n="c2d">Trajetória profissional, experiências e conexões ligadas ao mercado.</p>
+        <a class="clink" href="https://www.linkedin.com/in/rafael-rocha-89271021b/" target="_blank" rel="noopener">LinkedIn &#8594;</a>
+      </div>
+      <div class="ccrd rev rd3">
+        <div class="cicon">&#128187;</div>
+        <h3 data-i18n="c3t">GitHub</h3>
+        <p data-i18n="c3d">Portfólio, projetos técnicos e presença de código.</p>
+        <a class="clink" href="https://github.com/RafaelOliveiraRocha" target="_blank" rel="noopener">GitHub &#8594;</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- PROCESSSURGE -->
-  <section id="processsurge">
-    <div class="wrap">
-      <div class="ps-banner rev">
-        <div class="slbl" data-i18n="psLabel">ProcessSurge</div>
-        <div class="ps-header">
-          <div>
-            <div class="ps-role" data-i18n="psRole">Cofundador &middot; Camada analítica e de dados</div>
-            <div class="ps-title" data-i18n="psTitle">Process<em>Surge</em></div>
-            <p class="ps-tagline" data-i18n="psTagline">Automação que move receita.</p>
-          </div>
-          <div class="ps-meta">
-            <div class="ps-meta-item"><span class="ps-meta-label" data-i18n="psMetaRole">Papel</span><span class="ps-meta-value" data-i18n="psMetaRoleVal">Co-founder</span></div>
-            <div class="ps-meta-item"><span class="ps-meta-label" data-i18n="psMetaSince">Desde</span><span class="ps-meta-value">2026</span></div>
-            <div class="ps-meta-item"><span class="ps-meta-label" data-i18n="psMetaFocus">Foco</span><span class="ps-meta-value" data-i18n="psMetaFocusVal">Dados &amp; BI</span></div>
-          </div>
-        </div>
-
-        <div class="ps-grid">
-          <div>
-            <p class="ps-body" data-i18n="psBody1">A ProcessSurge entrega automação, dados e inteligência aplicada para empresas que precisam de estrutura real para crescer. Integramos operação, atendimento, marketplaces e fluxos de venda com tecnologia que organiza, mensura e escala. Cada solucao nasce de um problema concreto e entrega resultado mensuravel.</p>
-            <div class="ps-chips">
-              <span class="ps-chip" data-i18n="psChip1">Automacao</span>
-              <span class="ps-chip" data-i18n="psChip2">Dados e BI</span>
-              <span class="ps-chip" data-i18n="psChip3">IA aplicada</span>
-              <span class="ps-chip" data-i18n="psChip4">Integracao</span>
-              <span class="ps-chip" data-i18n="psChip5">E-commerce</span>
-              <span class="ps-chip">n8n</span>
-              <span class="ps-chip">Python</span>
-            </div>
-          </div>
-          <div class="ps-inner-card">
-            <span class="kicker" data-i18n="psKicker">onde eu entro</span>
-            <p class="ps-body" data-i18n="psBody2">Sou responsavel pela camada de dados e inteligencia da operacao. Estruturo indicadores de performance, dashboards executivos, diagnosticos sobre bases de clientes e recortes analiticos que sustentam decisoes reais. Cada entrega precisa ter um porque claro e gerar direcao pratica para o negocio do cliente.</p>
-            <div class="ps-cta">
-              <a class="bprim" href="https://www.processsurge.com/pt" target="_blank" rel="noopener" data-i18n="psBtn">Visitar site da ProcessSurge</a>
-              <a class="bout" href="https://wa.me/5511936205854" target="_blank" rel="noopener" data-i18n="psBtn2">Falar com a ProcessSurge</a>
-            </div>
-          </div>
-        </div>
-      </div>
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-in">
+    <div class="flinks">
+      <a class="flink" href="#home">Rafael Rocha</a>
+      <a class="flink" href="https://www.processsurge.com/pt" target="_blank" rel="noopener">ProcessSurge &#8599;</a>
+      <a class="flink" href="https://www.linkedin.com/in/rafael-rocha-89271021b/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="flink" href="mailto:rafaelolirocha@gmail.com">E-mail</a>
     </div>
-  </section>
+    <span class="footer-copy">&copy; 2026 Rafael Rocha</span>
+  </div>
+</footer>
 
-  <!-- CASOS DE IMPACTO -->
-  <section id="cases" class="bg2">
-    <div class="wrap">
-      <div class="slbl rev" data-i18n="casesLabel">Impacto</div>
-      <h2 class="stitle rev" data-i18n="casesTitle">Resultados construídos na prática.</h2>
-      <p class="ssub rev" data-i18n="casesSub">Recortes de frentes em que análise, estruturação e execução técnica geraram eficiência real, economia e direção de negócio.</p>
-      <div class="cases-grid">
-        <!-- CASE 1 -->
-        <article class="case-card rev">
-          <div class="case-visual">
-            <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:rgba(59,206,172,.15)" />
-                  <stop offset="100%" style="stop-color:rgba(77,168,218,.15)" />
-                </linearGradient>
-              </defs>
-              <rect x="30" y="30" width="140" height="90" rx="8" fill="url(#g1)" stroke="rgba(59,206,172,.3)" stroke-width="1" />
-              <rect x="40" y="42" width="55" height="6" rx="2" fill="rgba(59,206,172,.4)" />
-              <rect x="40" y="54" width="40" height="4" rx="1" fill="rgba(59,206,172,.2)" />
-              <rect x="40" y="66" width="120" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <rect x="40" y="74" width="90" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <rect x="40" y="82" width="110" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <rect x="40" y="96" width="50" height="14" rx="4" fill="rgba(59,206,172,.25)" />
-              <line x1="195" y1="75" x2="230" y2="75" stroke="rgba(59,206,172,.5)" stroke-width="2" stroke-dasharray="4" />
-              <polygon points="228,70 238,75 228,80" fill="rgba(59,206,172,.5)" />
-              <rect x="240" y="30" width="140" height="90" rx="8" fill="url(#g1)" stroke="rgba(77,168,218,.3)" stroke-width="1" />
-              <rect x="250" y="42" width="55" height="6" rx="2" fill="rgba(77,168,218,.4)" />
-              <rect x="250" y="54" width="40" height="4" rx="1" fill="rgba(77,168,218,.2)" />
-              <rect x="250" y="66" width="60" height="18" rx="3" fill="rgba(77,168,218,.12)" />
-              <rect x="315" y="66" width="55" height="18" rx="3" fill="rgba(59,206,172,.12)" />
-              <rect x="250" y="90" width="120" height="20" rx="3" fill="rgba(255,255,255,.04)" />
-              <rect x="256" y="95" width="30" height="10" rx="2" fill="rgba(59,206,172,.3)" />
-              <rect x="292" y="98" width="22" height="7" rx="2" fill="rgba(77,168,218,.25)" />
-              <rect x="320" y="96" width="40" height="9" rx="2" fill="rgba(59,206,172,.2)" />
-              <text x="200" y="148" text-anchor="middle" fill="rgba(59,206,172,.5)" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500">economia recorrente de alto impacto</text>
-            </svg>
-          </div>
-          <div class="case-body">
-            <h3 data-i18n="case1t">Migração de plataforma de BI com redução relevante de custo recorrente</h3>
-            <p data-i18n="case1d">Condução da migração de toda a camada de dashboards e indicadores para uma nova estrutura analítica, preservando a leitura executiva e eliminando a dependência de uma ferramenta com custo mensal elevado. A mudança gerou uma economia recorrente significativa no orçamento de tecnologia, com impacto direto no resultado da operação.</p>
-            <div class="case-impact" data-i18n="case1i">&#8599; Economia recorrente significativa no orçamento de tecnologia</div>
-            <div class="case-tags"><span class="ctag">BI</span><span class="ctag" data-i18n="case1tag2">Migração</span><span class="ctag" data-i18n="case1tag3">Eficiência</span></div>
-          </div>
-        </article>
-        <!-- CASE 2 -->
-        <article class="case-card rev rd1">
-          <div class="case-visual">
-            <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:rgba(77,168,218,.15)" />
-                  <stop offset="100%" style="stop-color:rgba(59,206,172,.12)" />
-                </linearGradient>
-              </defs>
-              <rect x="30" y="25" width="120" height="50" rx="6" fill="url(#g2)" stroke="rgba(77,168,218,.25)" stroke-width="1" />
-              <rect x="38" y="33" width="50" height="4" rx="1" fill="rgba(77,168,218,.4)" />
-              <rect x="38" y="41" width="95" height="3" rx="1" fill="rgba(255,255,255,.08)" />
-              <rect x="38" y="48" width="80" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <rect x="38" y="55" width="100" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <rect x="30" y="82" width="120" height="50" rx="6" fill="url(#g2)" stroke="rgba(77,168,218,.25)" stroke-width="1" />
-              <rect x="38" y="90" width="50" height="4" rx="1" fill="rgba(77,168,218,.4)" />
-              <rect x="38" y="98" width="95" height="3" rx="1" fill="rgba(255,255,255,.08)" />
-              <rect x="38" y="105" width="80" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <rect x="38" y="112" width="100" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <line x1="160" y1="60" x2="200" y2="90" stroke="rgba(59,206,172,.3)" stroke-width="1.5" />
-              <line x1="160" y1="100" x2="200" y2="90" stroke="rgba(59,206,172,.3)" stroke-width="1.5" />
-              <circle cx="205" cy="90" r="16" fill="rgba(59,206,172,.1)" stroke="rgba(59,206,172,.3)" stroke-width="1.5" />
-              <text x="205" y="94" text-anchor="middle" fill="rgba(59,206,172,.6)" font-family="IBM Plex Mono,monospace" font-size="11" font-weight="600">&#9670;</text>
-              <line x1="225" y1="90" x2="260" y2="70" stroke="rgba(59,206,172,.3)" stroke-width="1.5" />
-              <line x1="225" y1="90" x2="260" y2="110" stroke="rgba(59,206,172,.3)" stroke-width="1.5" />
-              <rect x="265" y="45" width="110" height="50" rx="6" fill="rgba(59,206,172,.07)" stroke="rgba(59,206,172,.25)" stroke-width="1" />
-              <rect x="273" y="53" width="40" height="4" rx="1" fill="rgba(59,206,172,.4)" />
-              <rect x="273" y="61" width="90" height="3" rx="1" fill="rgba(255,255,255,.08)" />
-              <rect x="273" y="68" width="70" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <rect x="273" y="78" width="45" height="10" rx="3" fill="rgba(59,206,172,.2)" />
-              <rect x="265" y="102" width="110" height="50" rx="6" fill="rgba(59,206,172,.07)" stroke="rgba(59,206,172,.25)" stroke-width="1" />
-              <rect x="273" y="110" width="40" height="4" rx="1" fill="rgba(59,206,172,.4)" />
-              <rect x="273" y="118" width="90" height="3" rx="1" fill="rgba(255,255,255,.08)" />
-              <rect x="273" y="125" width="70" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <rect x="273" y="135" width="45" height="10" rx="3" fill="rgba(59,206,172,.2)" />
-              <text x="200" y="165" text-anchor="middle" fill="rgba(77,168,218,.5)" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500">40+ GB &#8594; insights de alto valor</text>
-            </svg>
-          </div>
-          <div class="case-body">
-            <h3 data-i18n="case2t">Diagnóstico conversacional em larga escala com geração de receita</h3>
-            <p data-i18n="case2d">Estudo analítico profundo sobre uma base massiva de dados conversacionais, extraindo padrões de comportamento, gargalos de atendimento e oportunidades de melhoria que geraram receita pontual relevante para a empresa. O valor não esteve no processamento técnico, mas no diagnóstico, na inteligência extraída e na aplicabilidade dos insights.</p>
-            <div class="case-impact" data-i18n="case2i">&#8599; Estudo monetizado com impacto direto no negócio</div>
-            <div class="case-tags"><span class="ctag">Analytics</span><span class="ctag" data-i18n="case2tag2">Diagnóstico</span><span class="ctag" data-i18n="case2tag3">Receita</span></div>
-          </div>
-        </article>
-        <!-- CASE 3 -->
-        <article class="case-card rev rd2">
-          <div class="case-visual">
-            <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g3" x1="0%" y1="100%" x2="100%" y2="0%">
-                  <stop offset="0%" style="stop-color:rgba(59,206,172,.12)" />
-                  <stop offset="100%" style="stop-color:rgba(77,168,218,.12)" />
-                </linearGradient>
-              </defs>
-              <rect x="25" y="20" width="350" height="140" rx="10" fill="url(#g3)" stroke="rgba(59,206,172,.18)" stroke-width="1" />
-              <rect x="35" y="30" width="80" height="6" rx="2" fill="rgba(59,206,172,.4)" />
-              <rect x="35" y="42" width="50" height="4" rx="1" fill="rgba(59,206,172,.2)" />
-              <rect x="35" y="58" width="160" height="92" rx="6" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.06)" stroke-width="1" />
-              <line x1="50" y1="130" x2="50" y2="72" stroke="rgba(255,255,255,.08)" stroke-width="1" />
-              <line x1="35" y1="130" x2="195" y2="130" stroke="rgba(255,255,255,.08)" stroke-width="1" />
-              <rect x="58" y="105" width="14" height="25" rx="2" fill="rgba(59,206,172,.3)" />
-              <rect x="78" y="90" width="14" height="40" rx="2" fill="rgba(77,168,218,.3)" />
-              <rect x="98" y="98" width="14" height="32" rx="2" fill="rgba(59,206,172,.25)" />
-              <rect x="118" y="82" width="14" height="48" rx="2" fill="rgba(77,168,218,.25)" />
-              <rect x="138" y="75" width="14" height="55" rx="2" fill="rgba(59,206,172,.35)" />
-              <rect x="158" y="85" width="14" height="45" rx="2" fill="rgba(77,168,218,.3)" />
-              <rect x="178" y="70" width="14" height="60" rx="2" fill="rgba(59,206,172,.4)" />
-              <rect x="210" y="58" width="150" height="40" rx="6" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.06)" stroke-width="1" />
-              <rect x="220" y="66" width="35" height="4" rx="1" fill="rgba(59,206,172,.35)" />
-              <rect x="220" y="74" width="130" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <rect x="220" y="81" width="100" height="3" rx="1" fill="rgba(255,255,255,.05)" />
-              <rect x="220" y="88" width="60" height="3" rx="1" fill="rgba(255,255,255,.04)" />
-              <rect x="210" y="108" width="150" height="40" rx="6" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.06)" stroke-width="1" />
-              <circle cx="228" cy="120" r="6" fill="rgba(59,206,172,.3)" />
-              <rect x="240" y="116" width="50" height="3" rx="1" fill="rgba(255,255,255,.1)" />
-              <rect x="240" y="123" width="110" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-              <circle cx="228" cy="138" r="6" fill="rgba(77,168,218,.3)" />
-              <rect x="240" y="134" width="40" height="3" rx="1" fill="rgba(255,255,255,.1)" />
-              <rect x="240" y="141" width="90" height="3" rx="1" fill="rgba(255,255,255,.06)" />
-            </svg>
-          </div>
-          <div class="case-body">
-            <h3 data-i18n="case3t">Performance de bots e canais digitais traduzida em direção executiva</h3>
-            <p data-i18n="case3d">Análises recorrentes de volumetria, retenção, recontato, abandono, CSAT e jornada do usuário em bots e canais digitais. Cada entrega conecta dados operacionais a leituras que ajudam gestores a priorizar ajustes, discutir evolução com stakeholders e tomar decisões com base concreta.</p>
-            <div class="case-impact" data-i18n="case3i">&#8599; Entregas recorrentes que orientam decisão operacional</div>
-            <div class="case-tags"><span class="ctag" data-i18n="case3tag1">Performance</span><span class="ctag" data-i18n="case3tag2">Métricas</span><span class="ctag" data-i18n="case3tag3">Decisão</span></div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- CARREIRA -->
-  <section id="career">
-    <div class="wrap">
-      <div class="slbl rev" data-i18n="careerLabel">Experiência</div>
-      <h2 class="stitle rev" data-i18n="careerTitle">Trajetória construída em cima de dados, produto e operação.</h2>
-      <p class="ssub rev" data-i18n="careerSub">A evolução do escopo e a forma como meu trabalho foi se conectando cada vez mais à tomada de decisão.</p>
-      <div class="timeline">
-        <div class="ti">
-          <div class="tdot"></div>
-          <div class="tperiod" data-i18n="t3p">2026 · atual</div>
-          <div class="ttitle" data-i18n="t3t">Cofundador · Dados, BI e inteligência operacional</div>
-          <div class="tcompany"><a href="https://www.processsurge.com/pt" target="_blank" rel="noopener" style="color:var(--a)">ProcessSurge</a></div>
-          <div class="tdesc" data-i18n="t3d">Estruturação da camada analítica da operação com foco em indicadores, dashboards, leitura de performance e integração com soluções de automação.</div>
-        </div>
-        <div class="ti">
-          <div class="tdot"></div>
-          <div class="tperiod" data-i18n="t1p">2025 · atual</div>
-          <div class="ttitle" data-i18n="t1t">Analista de Dados</div>
-          <div class="tcompany">Hi Platform</div>
-          <div class="tdesc" data-i18n="t1d">Atuação com análise de performance, dashboards executivos, métricas, SQL, automação de relatórios e leituras conectadas à operação e aos clientes.</div>
-          <ul class="tlist">
-            <li data-i18n="t1l1">Dashboards e relatórios de performance para bots, canais digitais e operação de atendimento.</li>
-            <li data-i18n="t1l2">Análises estruturadas com SQL e Python em ambiente PostgreSQL e Apache Superset.</li>
-            <li data-i18n="t1l3">Migração de plataforma de BI com redução significativa de custo recorrente em tecnologia.</li>
-            <li data-i18n="t1l4">Estudos pontuais de alto valor sobre bases conversacionais massivas.</li>
-          </ul>
-        </div>
-        <div class="ti">
-          <div class="tdot"></div>
-          <div class="tperiod" data-i18n="t2p">2024 · 2025</div>
-          <div class="ttitle" data-i18n="t2t">Estagiário em BI</div>
-          <div class="tcompany">Hi Platform</div>
-          <div class="tdesc" data-i18n="t2d">Base forte em organização de dados, construção de relatórios, visualização e apoio analítico a projetos de negócio e performance.</div>
-        </div>
-        <div class="ti">
-          <div class="tdot"></div>
-          <div class="tperiod" data-i18n="t4p">Experiência anterior</div>
-          <div class="ttitle" data-i18n="t4t">Assistente de Operações</div>
-          <div class="tcompany">AppJusto</div>
-          <div class="tdesc" data-i18n="t4d">Atuação multidisciplinar em operações, suporte, dados e relacionamento, com contato direto com entregadores, restaurantes e consumidores finais.</div>
-          <ul class="tlist">
-            <li data-i18n="t4l1">Suporte e helpdesk para entregadores, restaurantes e consumidores do app.</li>
-            <li data-i18n="t4l2">Dashboards no Looker Studio para acompanhamento operacional nas três frentes.</li>
-            <li data-i18n="t4l3">Prevenção de churn via escuta ativa e quebra de objeções com donos de restaurantes.</li>
-            <li data-i18n="t4l4">Automação de disparos para prospecção de novos entregadores na plataforma.</li>
-            <li data-i18n="t4l5">Atuação em prevenção de fraudes.</li>
-          </ul>
-        </div>
-        <div class="ti">
-          <div class="tdot"></div>
-          <div class="tperiod" data-i18n="t5p">Formação</div>
-          <div class="ttitle" data-i18n="t5t">Bacharel em Engenharia de Software</div>
-          <div class="tcompany">UNOPAR</div>
-          <div class="tdesc" data-i18n="t5d">Graduação concluída, somando base técnica à atuação prática já consolidada em dados, BI e soluções digitais.</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- STACK -->
-  <section id="stack" class="bg2">
-    <div class="wrap">
-      <div class="slbl rev" data-i18n="stackLabel">Stack</div>
-      <h2 class="stitle rev" data-i18n="stackTitle">Stack e ferramentas do dia a dia.</h2>
-      <p class="ssub rev" data-i18n="stackSub">As ferramentas e frentes que compõem minha atuação hoje.</p>
-      <div class="stack-cats rev rd1">
-        <div>
-          <div class="scat-label" data-i18n="scatData">Dados e BI</div>
-          <div class="stags">
-            <span class="stag"><span class="si">&#128450;</span> SQL</span>
-            <span class="stag"><span class="si">&#128013;</span> Python</span>
-            <span class="stag"><span class="si">&#128202;</span> Apache Superset</span>
-            <span class="stag"><span class="si">&#128200;</span> Hi Boards</span>
-            <span class="stag"><span class="si">&#128203;</span> Google Sheets</span>
-            <span class="stag"><span class="si">&#128196;</span> Excel</span>
-            <span class="stag"><span class="si">&#128201;</span> Looker Studio</span>
-            <span class="stag"><span class="si">&#128202;</span> Power BI</span>
-            <span class="stag"><span class="si">&#128202;</span> Tableau</span>
-            <span class="stag"><span class="si">&#128196;</span> PowerPoint</span>
-            <span class="stag"><span class="si">&#128196;</span> Google Slides</span>
-          </div>
-        </div>
-        <div>
-          <div class="scat-label" data-i18n="scatViz">Visualização e dashboards</div>
-          <div class="stags">
-            <span class="stag"><span class="si">&#9636;</span> <span data-i18n="tagExecDash">Dashboards executivos</span></span>
-            <span class="stag"><span class="si">&#128202;</span> <span data-i18n="tagKPIs">Métricas e KPIs</span></span>
-            <span class="stag"><span class="si">&#128214;</span> <span data-i18n="tagStorytelling">Storytelling analítico</span></span>
-            <span class="stag"><span class="si">&#128196;</span> <span data-i18n="tagReportAuto">Automação de relatórios</span></span>
-          </div>
-        </div>
-        <div>
-          <div class="scat-label" data-i18n="scatAuto">Automação e integração</div>
-          <div class="stags">
-            <span class="stag"><span class="si">&#9889;</span> n8n</span>
-            <span class="stag"><span class="si">&#128187;</span> Apps Script</span>
-            <span class="stag"><span class="si">&#128279;</span> APIs</span>
-            <span class="stag"><span class="si">&#128295;</span> <span data-i18n="tagDataStruct">Estruturação de bases</span></span>
-          </div>
-        </div>
-        <div>
-          <div class="scat-label" data-i18n="scatAI">IA e LLMs</div>
-          <div class="stags">
-            <span class="stag"><span class="si">&#129302;</span> ChatGPT</span>
-            <span class="stag"><span class="si">&#128172;</span> Claude</span>
-            <span class="stag"><span class="si">&#128142;</span> Gemini</span>
-            <span class="stag"><span class="si">&#127760;</span> Manus</span>
-            <span class="stag"><span class="si">&#128269;</span> DeepSeek</span>
-            <span class="stag"><span class="si">&#128270;</span> Perplexity</span>
-            <span class="stag"><span class="si">&#9997;</span> <span data-i18n="tagPromptEng">Prompt Engineering</span></span>
-          </div>
-        </div>
-        <div>
-          <div class="scat-label" data-i18n="scatWay">Forma de atuação</div>
-          <div class="stags">
-            <span class="stag"><span class="si">&#9670;</span> <span data-i18n="tagExecReading">Leitura executiva</span></span>
-            <span class="stag"><span class="si">&#128200;</span> <span data-i18n="tagPerfAnalysis">Análise de performance</span></span>
-            <span class="stag"><span class="si">&#8644;</span> <span data-i18n="tagBizSupport">Apoio à decisão</span></span>
-            <span class="stag"><span class="si">&#128203;</span> <span data-i18n="tagMetricStruct">Estruturação de métricas</span></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTATO -->
-  <section id="contact">
-    <div class="wrap">
-      <div class="slbl rev" data-i18n="contactLabel">Contato</div>
-      <h2 class="stitle rev" data-i18n="contactTitle">Aberto a oportunidades e projetos com direção clara.</h2>
-      <p class="ssub rev" data-i18n="contactSub">Para vagas ligadas a dados, BI e automação, ou para conversas estratégicas envolvendo a ProcessSurge.</p>
-      <div class="contact-grid">
-        <div class="ccrd rev">
-          <div class="cicon">&#9993;</div>
-          <h3 data-i18n="c1t">E-mail</h3>
-          <p data-i18n="c1d">Canal direto para oportunidades profissionais, apresentações e conversas objetivas.</p>
-          <a class="clink" href="mailto:rafaelolirocha@gmail.com">rafaelolirocha@gmail.com</a>
-        </div>
-        <div class="ccrd rev rd1">
-          <div class="cicon">&#128279;</div>
-          <h3 data-i18n="c2t">LinkedIn</h3>
-          <p data-i18n="c2d">Trajetória profissional, experiências e conexões ligadas ao mercado.</p>
-          <a class="clink" href="https://www.linkedin.com/in/rafael-rocha-89271021b/" target="_blank" rel="noopener">LinkedIn &#8594;</a>
-        </div>
-        <div class="ccrd rev rd2">
-          <div class="cicon">&#128187;</div>
-          <h3 data-i18n="c3t">GitHub</h3>
-          <p data-i18n="c3d">Portfólio, projetos técnicos e presença de código.</p>
-          <a class="clink" href="https://github.com/RafaelOliveiraRocha" target="_blank" rel="noopener">GitHub &#8594;</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-in">
-      <div class="flinks">
-        <a class="flink" href="#home">Rafael Rocha</a>
-        <a class="flink" href="https://www.processsurge.com/pt" target="_blank" rel="noopener">ProcessSurge &#8599;</a>
-        <a class="flink" href="https://www.linkedin.com/in/rafael-rocha-89271021b/" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="flink" href="mailto:rafaelolirocha@gmail.com">E-mail</a>
-      </div>
-      <span class="footer-copy">&copy; 2026 Rafael Rocha</span>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
-
 </html>
