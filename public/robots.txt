@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rafaeloliveirarocha.github.io/sitemap.xml
