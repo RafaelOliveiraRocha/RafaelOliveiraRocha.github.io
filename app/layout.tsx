@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Rafael Rocha",
   },
   description:
-    "Portfólio de Rafael Rocha, Analista de Dados especializado em BI, analytics operacional, SQL, Python, PostgreSQL, Apache Superset, Power BI, dashboards, KPIs, automação e IA aplicada ao BI.",
+    "Portfólio de Rafael Rocha, Analista de Dados especializado em BI, analytics operacional, integração e modelagem de dados, SQL, Python, PostgreSQL, Apache Superset, Power BI, APIs, automação e IA aplicada ao BI.",
   keywords: [
     "Rafael Rocha",
     "Analista de Dados",
@@ -36,6 +36,12 @@ export const metadata: Metadata = {
     "Dashboards",
     "KPIs",
     "ETL",
+    "ETL/ELT",
+    "Integração de Dados",
+    "Modelagem de Dados",
+    "APIs",
+    "Pipelines de Dados",
+    "Arquitetura RAW Silver Gold",
     "Data Storytelling",
     "Customer Analytics",
     "Automação",
@@ -63,7 +69,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
     title: "Rafael Rocha | Analista de Dados, BI & Analytics",
-    description: "BI, SQL, Python, dashboards, automação e IA aplicada ao BI com contexto de negócio.",
+    description: "BI, integração de dados, SQL, Python, dashboards, automação e IA aplicada ao BI com contexto de negócio.",
   },
   formatDetection: { email: false, address: false, telephone: false },
 };
@@ -92,7 +98,7 @@ const structuredData = {
       url: "https://rafaeloliveirarocha.github.io/",
       image: "https://rafaeloliveirarocha.github.io/rafael-rocha.jpeg",
       jobTitle: "Analista de Dados",
-      description: "Analista de Dados com atuação em Business Intelligence, analytics operacional, SQL, Python, PostgreSQL, Apache Superset, Power BI, automação e IA aplicada ao BI.",
+      description: "Analista de Dados com atuação em Business Intelligence, analytics operacional, integração e modelagem de dados, SQL, Python, PostgreSQL, Apache Superset, Power BI, automação e IA aplicada ao BI.",
       email: "mailto:rafaelolirocha@gmail.com",
       address: {
         "@type": "PostalAddress",
@@ -117,9 +123,15 @@ const structuredData = {
         "Dashboards",
         "KPIs",
         "ETL/ELT",
+        "Integração de Dados",
+        "Modelagem de Dados",
+        "APIs",
+        "Pipelines de Dados",
+        "n8n",
         "Data Storytelling",
         "Automação",
         "IA aplicada ao BI",
+        "LLMs",
       ],
     },
   ],
@@ -133,6 +145,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" data-theme="dark" suppressHydrationWarning>
       <head>
+        <meta name="codex-preview" content="development" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
         <link rel="shortcut icon" href="/favicon.ico" />

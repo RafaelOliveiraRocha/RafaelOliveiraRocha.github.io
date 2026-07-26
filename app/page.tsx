@@ -21,7 +21,7 @@ const copy = {
       "Estruturo BI, dashboards e analytics operacional com SQL, Python, Apache Superset e Power BI para transformar dados dispersos em indicadores confiáveis e decisões melhores.",
     seeWork: "Ver projetos",
     download: "Baixar currículo",
-    cvHref: "/Curriculo_Rafael_Rocha_PT.pdf",
+    cvHref: "/Rafael_Rocha_Curriculo.pdf",
     metrics: [
       ["43", "R$", "K/mês", "em savings recorrentes"],
       ["40", "", "+", "contas atendidas"],
@@ -38,7 +38,7 @@ const copy = {
     profileLabel: "Perfil profissional",
     profileTitle: "Dados, BI e automação com leitura de negócio.",
     profileBody:
-      "Analista de Dados na Hi Platform e cofundador da ProcessSurge. Minha atuação combina construção técnica, visão operacional e comunicação executiva para transformar bases dispersas em indicadores confiáveis, análises acionáveis e produtos analíticos úteis.",
+      "Analista de Dados na Hi Platform e cofundador da ProcessSurge. Minha atuação combina BI, integração de dados, automação e IA aplicada com visão operacional e comunicação executiva para transformar bases dispersas em indicadores confiáveis, produtos analíticos e decisões melhores.",
     profileFacts: [
       ["ATUAÇÃO", "BI · Analytics · Automação"],
       ["BASE", "Ubá · MG · Remoto"],
@@ -101,6 +101,15 @@ const copy = {
       },
       {
         index: "02",
+        kicker: "INTEGRAÇÃO E ARQUITETURA DE DADOS",
+        title: "Dados financeiros estruturados da origem à decisão",
+        body: "Estruturação de uma integração entre ERP, APIs, n8n e PostgreSQL, organizada em camadas RAW, Silver e Gold para preservar histórico, garantir rastreabilidade e alimentar uma aplicação analítica voltada à priorização e à tomada de decisão.",
+        result: "RAW → GOLD",
+        resultLabel: "com rastreabilidade ponta a ponta",
+        tags: ["APIs", "n8n", "PostgreSQL"],
+      },
+      {
+        index: "03",
         kicker: "DIAGNÓSTICO EM ESCALA",
         title: "Dados conversacionais transformados em oportunidade de negócio",
         body: "Análise profunda de uma base massiva para identificar padrões de comportamento, gargalos de atendimento e oportunidades acionáveis, traduzidas para stakeholders em uma narrativa objetiva.",
@@ -109,7 +118,7 @@ const copy = {
         tags: ["Analytics", "Python", "Storytelling"],
       },
       {
-        index: "03",
+        index: "04",
         kicker: "IA APLICADA AO BI",
         title: "Perguntas em linguagem natural com contexto, limites e evidência",
         body: "Prototipação de uma camada conversacional sobre dados analíticos, conectando linguagem natural, geração de SQL e respostas rastreáveis. O foco não é a mágica do modelo, mas a confiança da decisão.",
@@ -118,7 +127,7 @@ const copy = {
         tags: ["LLMs", "SQL", "Observabilidade"],
       },
       {
-        index: "04",
+        index: "05",
         kicker: "ANALYTICS OPERACIONAL",
         title: "Indicadores que sustentam decisões em canais digitais",
         body: "Dashboards e análises de volumetria, retenção, recontato, abandono, CSAT e jornada. Uma camada recorrente de leitura para priorizar ajustes e acompanhar evolução.",
@@ -136,15 +145,15 @@ const copy = {
         period: "2026 · atual",
         role: "Cofundador · Dados e inteligência operacional",
         company: "ProcessSurge",
-        body: "Responsável pela frente de dados, BI e analytics aplicada a operações de e-commerce e automação de negócio.",
-        details: ["Arquitetura BI com n8n, PostgreSQL e Apache Superset", "Pipelines de APIs de e-commerce e indicadores executivos"],
+        body: "Responsável pela frente de dados, BI e analytics aplicada a operações, integrações e automação de negócio.",
+        details: ["Arquitetura BI com n8n, PostgreSQL e Apache Superset", "Integração de ERP e APIs em camadas RAW, Silver e Gold", "Pipelines de e-commerce e indicadores executivos"],
       },
       {
         period: "2025 · atual",
         role: "Analista de Dados",
         company: "Hi Platform",
-        body: "Atuação ponta a ponta com BI, SQL, dashboards executivos, analytics operacional, automação e comunicação com áreas de negócio.",
-        details: ["Migração de BI com aproximadamente R$43K/mês em savings", "Dashboards e análises recorrentes para 40+ contas", "SQL, Python, PostgreSQL e storytelling executivo"],
+        body: "Atuação ponta a ponta com BI, SQL, dashboards executivos, analytics operacional, automação, IA aplicada e comunicação com áreas de negócio.",
+        details: ["Migração de BI com aproximadamente R$43K/mês em savings", "Dashboards e análises recorrentes para 40+ contas", "Protótipo de camada conversacional com linguagem natural, geração de SQL e respostas rastreáveis", "SQL, Python, PostgreSQL e storytelling executivo"],
       },
       {
         period: "2024 · 2025",
@@ -173,9 +182,9 @@ const copy = {
     aboutLabel: "Sobre",
     aboutTitle: "Técnica suficiente para construir. Contexto suficiente para decidir.",
     aboutBody: [
-      "Sou Analista de Dados na Hi Platform e cofundador da ProcessSurge. Trabalho na interseção entre BI, analytics operacional, automação e inteligência aplicada.",
-      "Meu papel não termina quando o dashboard carrega. Eu busco entender a regra de negócio, validar a métrica, organizar a evidência e comunicar o que realmente merece atenção.",
-      "Hoje, concentro minha evolução em produtos analíticos, IA aplicada ao BI e estruturas de dados que aproximem perguntas de decisões confiáveis.",
+      "Sou Analista de Dados e bacharel em Engenharia de Software. Minha trajetória profissional começou em 2011, em ambientes operacionais e industriais, e desde 2022 concentro minha atuação em dados, BI, automação e inteligência aplicada.",
+      "Hoje trabalho de ponta a ponta: extração, tratamento, modelagem, integrações, pipelines, dashboards, KPIs e análises. Meu papel não termina quando o dashboard carrega; procuro entender a regra de negócio, validar a métrica e comunicar o que realmente merece atenção.",
+      "Na Hi Platform e na ProcessSurge, conecto profundidade técnica, contexto operacional e comunicação executiva para aproximar dados dispersos de decisões confiáveis.",
     ],
     principles: ["Baixo ruído", "Métrica com contexto", "Evidência antes da conclusão"],
     contactLabel: "Contato",
@@ -209,7 +218,7 @@ const copy = {
       "I build BI, dashboards and operational analytics with SQL, Python, Apache Superset and Power BI to turn scattered data into reliable indicators and better decisions.",
     seeWork: "View projects",
     download: "Download résumé",
-    cvHref: "/Rafael_Rocha_Resume_EN.pdf",
+    cvHref: "/Rafael_Rocha_Resume.pdf",
     metrics: [
       ["43", "R$", "K/month", "in recurring savings"],
       ["40", "", "+", "accounts supported"],
@@ -226,7 +235,7 @@ const copy = {
     profileLabel: "Professional profile",
     profileTitle: "Data, BI and automation with business context.",
     profileBody:
-      "Data Analyst at Hi Platform and co-founder of ProcessSurge. My work combines technical execution, operational perspective and executive communication to turn scattered data into reliable indicators, actionable analysis and useful analytical products.",
+      "Data Analyst at Hi Platform and co-founder of ProcessSurge. I combine BI, data integration, automation and applied AI with operational perspective and executive communication to turn scattered data into reliable indicators, analytical products and better decisions.",
     profileFacts: [
       ["FIELD", "BI · Analytics · Automation"],
       ["BASE", "Ubá · MG · Remote"],
@@ -289,6 +298,15 @@ const copy = {
       },
       {
         index: "02",
+        kicker: "DATA INTEGRATION & ARCHITECTURE",
+        title: "Financial data structured from source to decision",
+        body: "Designed an integration connecting an ERP, APIs, n8n and PostgreSQL, organized into RAW, Silver and Gold layers to preserve history, ensure traceability and power a decision-support analytics application.",
+        result: "RAW → GOLD",
+        resultLabel: "with end-to-end traceability",
+        tags: ["APIs", "n8n", "PostgreSQL"],
+      },
+      {
+        index: "03",
         kicker: "DIAGNOSIS AT SCALE",
         title: "Conversational data turned into a business opportunity",
         body: "Deep analysis of a massive dataset to identify behavioral patterns, service bottlenecks and actionable opportunities, translated into a clear narrative for stakeholders.",
@@ -297,7 +315,7 @@ const copy = {
         tags: ["Analytics", "Python", "Storytelling"],
       },
       {
-        index: "03",
+        index: "04",
         kicker: "AI APPLIED TO BI",
         title: "Natural-language questions with context, limits and evidence",
         body: "Prototyped a conversational layer over analytical data, connecting natural language, SQL generation and traceable answers. The focus is not model magic, but decision confidence.",
@@ -306,7 +324,7 @@ const copy = {
         tags: ["LLMs", "SQL", "Observability"],
       },
       {
-        index: "04",
+        index: "05",
         kicker: "OPERATIONAL ANALYTICS",
         title: "Indicators supporting decisions across digital channels",
         body: "Dashboards and analyses covering volume, retention, recontact, abandonment, CSAT and journey metrics. A recurring insight layer for prioritization and progress tracking.",
@@ -324,15 +342,15 @@ const copy = {
         period: "2026 · present",
         role: "Co-founder · Data and operational intelligence",
         company: "ProcessSurge",
-        body: "Responsible for data, BI and analytics applied to e-commerce operations and business automation.",
-        details: ["BI architecture with n8n, PostgreSQL and Apache Superset", "E-commerce API pipelines and executive indicators"],
+        body: "Responsible for data, BI and analytics applied to operations, integrations and business automation.",
+        details: ["BI architecture with n8n, PostgreSQL and Apache Superset", "ERP and API integration across RAW, Silver and Gold layers", "E-commerce pipelines and executive indicators"],
       },
       {
         period: "2025 · present",
         role: "Data Analyst",
         company: "Hi Platform",
-        body: "End-to-end work with BI, SQL, executive dashboards, operational analytics, automation and communication with business teams.",
-        details: ["BI migration delivering approximately R$43K/month in savings", "Recurring dashboards and analysis for 40+ accounts", "SQL, Python, PostgreSQL and executive storytelling"],
+        body: "End-to-end work with BI, SQL, executive dashboards, operational analytics, automation, applied AI and communication with business teams.",
+        details: ["BI migration delivering approximately R$43K/month in savings", "Recurring dashboards and analysis for 40+ accounts", "Conversational analytics prototype combining natural language, SQL generation and traceable answers", "SQL, Python, PostgreSQL and executive storytelling"],
       },
       {
         period: "2024 · 2025",
@@ -361,9 +379,9 @@ const copy = {
     aboutLabel: "About",
     aboutTitle: "Technical depth to build. Business context to decide.",
     aboutBody: [
-      "I am a Data Analyst at Hi Platform and co-founder of ProcessSurge, working at the intersection of BI, operational analytics, automation and applied intelligence.",
-      "My role does not end when a dashboard loads. I work to understand the business rule, validate the metric, organize the evidence and communicate what truly deserves attention.",
-      "I am currently focused on analytical products, AI applied to BI and data structures that bring questions closer to reliable decisions.",
+      "I am a Data Analyst with a bachelor's degree in Software Engineering. My career began in 2011 across industrial and operational environments, and since 2022 I have focused on data, BI, automation and applied intelligence.",
+      "Today I work across the full analytics lifecycle: extraction, transformation, modeling, integrations, pipelines, dashboards, KPIs and analysis. My role does not end when a dashboard loads; I work to understand business rules, validate metrics and communicate what truly deserves attention.",
+      "At Hi Platform and ProcessSurge, I connect technical depth, operational context and executive communication to turn scattered data into reliable decisions.",
     ],
     principles: ["Low noise", "Metrics with context", "Evidence before conclusions"],
     contactLabel: "Contact",
@@ -455,8 +473,9 @@ function DataStage({ language }: { language: Language }) {
 
 function CaseVisual({ index }: { index: number }) {
   if (index === 0) return <div className="case-semantic migration-viz"><span>DashBI</span><i>→</i><span>Superset</span><strong>− R$43K</strong></div>;
-  if (index === 1) return <div className="case-semantic volume-viz"><strong>40+ GB</strong><div>{Array.from({length:18}).map((_,i)=><i key={i} />)}</div><span>PADRÕES → OPORTUNIDADE</span></div>;
-  if (index === 2) return <div className="case-semantic ai-viz"><span>“Qual indicador mudou?”</span><code>SELECT insight FROM dados;</code><strong>✓ RESPOSTA RASTREÁVEL</strong></div>;
+  if (index === 1) return <div className="case-semantic pipeline-viz"><div><span>API</span><i>→</i><span>RAW</span><i>→</i><span>SILVER</span><i>→</i><span>GOLD</span></div><strong>ERP → DECISÃO</strong></div>;
+  if (index === 2) return <div className="case-semantic volume-viz"><strong>40+ GB</strong><div>{Array.from({length:18}).map((_,i)=><i key={i} />)}</div><span>PADRÕES → OPORTUNIDADE</span></div>;
+  if (index === 3) return <div className="case-semantic ai-viz"><span>“Qual indicador mudou?”</span><code>SELECT insight FROM dados;</code><strong>✓ RESPOSTA RASTREÁVEL</strong></div>;
   return <div className="case-semantic accounts-viz"><div>{Array.from({length:20}).map((_,i)=><i key={i} />)}</div><strong>40+ CONTAS</strong><span>COBERTURA ANALÍTICA</span></div>;
 }
 
@@ -561,7 +580,7 @@ function RecruiterMode({ language, t, onClose }: { language: Language; t: Portfo
               <h2>{t.contactTitle}</h2>
               <p className="recruiter-lead">{t.contactBody}</p>
               <div className="recruiter-actions">
-                <a href={t.cvHref} download><span>PDF</span><strong>{t.download}</strong><DownloadIcon /></a>
+                <a href={t.cvHref} download={language === "pt" ? "Rafael_Rocha_Curriculo.pdf" : "Rafael_Rocha_Resume.pdf"}><span>PDF</span><strong>{t.download}</strong><DownloadIcon /></a>
                 <a href="https://www.linkedin.com/in/rafael-rocha-89271021b/" target="_blank" rel="me noopener noreferrer"><span>IN</span><strong>LinkedIn</strong><ArrowIcon /></a>
                 <a href="https://wa.me/5532998147576" target="_blank" rel="noopener noreferrer"><span>WA</span><strong>WhatsApp</strong><ArrowIcon /></a>
               </div>
@@ -594,6 +613,8 @@ export default function Home() {
 
   useEffect(() => {
     const storedLanguage = localStorage.getItem("rr-language") as Language | null;
+    // The saved preference is restored only after hydration; PT-BR remains the first-visit default.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (storedLanguage === "pt" || storedLanguage === "en") setLanguage(storedLanguage);
     localStorage.removeItem("rr-theme");
   }, []);
@@ -757,7 +778,7 @@ export default function Home() {
                 <a className="button button-primary" href="#impacto">
                   {t.seeWork}<ArrowIcon />
                 </a>
-                <a className="button button-secondary" href={t.cvHref} download>
+                <a className="button button-secondary" href={t.cvHref} download={language === "pt" ? "Rafael_Rocha_Curriculo.pdf" : "Rafael_Rocha_Resume.pdf"}>
                   {t.download}<DownloadIcon />
                 </a>
               </div>
@@ -975,10 +996,10 @@ export default function Home() {
             </div>
             <div className="contact-actions reveal delay-1">
               <h3 className="resources-title">{t.resourcesTitle}</h3>
-              <a className="contact-link cv-link" href="/Curriculo_Rafael_Rocha_PT.pdf" download>
+              <a className="contact-link cv-link" href="/Rafael_Rocha_Curriculo.pdf" download="Rafael_Rocha_Curriculo.pdf">
                 <span>PDF · PT</span><strong>{t.cvPt}</strong><DownloadIcon />
               </a>
-              <a className="contact-link cv-link" href="/Rafael_Rocha_Resume_EN.pdf" download>
+              <a className="contact-link cv-link" href="/Rafael_Rocha_Resume.pdf" download="Rafael_Rocha_Resume.pdf">
                 <span>PDF · EN</span><strong>{t.cvEn}</strong><DownloadIcon />
               </a>
               <a className="contact-link whatsapp-link" href="https://wa.me/5532998147576" target="_blank" rel="noopener noreferrer">
