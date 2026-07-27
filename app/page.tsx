@@ -30,7 +30,7 @@ const copy = {
     signal: "Sinal ativo",
     evidence: "Evidência",
     graphLabels: ["Dados", "Métricas", "Contexto", "Decisão"],
-    roleLine: "Hi Platform · ProcessSurge",
+    roleLine: "Hi Platform · BI & Analytics",
     workLabel: "O que eu resolvo",
     workTitle: "Da base à decisão, com responsabilidade pelo caminho inteiro.",
     workIntro:
@@ -38,7 +38,7 @@ const copy = {
     profileLabel: "Perfil profissional",
     profileTitle: "Dados, BI e automação com leitura de negócio.",
     profileBody:
-      "Analista de Dados na Hi Platform e cofundador da ProcessSurge. Minha atuação combina BI, integração de dados, automação e IA aplicada com visão operacional e comunicação executiva para transformar bases dispersas em indicadores confiáveis, produtos analíticos e decisões melhores.",
+      "Analista de Dados na Hi Platform. Minha atuação combina BI, integração de dados, automação e IA aplicada com visão operacional e comunicação executiva para transformar bases dispersas em indicadores confiáveis, produtos analíticos e decisões melhores.",
     profileFacts: [
       ["ATUAÇÃO", "BI · Analytics · Automação"],
       ["BASE", "Ubá · MG · Remoto"],
@@ -71,10 +71,10 @@ const copy = {
         tags: ["Python", "n8n", "LLMs"],
       },
     ],
-    processLabel: "ProcessSurge",
-    processTitle: "Dados e inteligência operacional aplicados a crescimento.",
+    processLabel: "Frente empreendedora · ProcessSurge",
+    processTitle: "Dados e inteligência operacional aplicados a e-commerce.",
     processBody:
-      "Como cofundador, lidero a frente de dados e inteligência operacional. A proposta é conectar e-commerce, automação e analytics em soluções que organizam a operação, tornam gargalos visíveis e ajudam negócios a crescer com mais controle.",
+      "Atuo como cofundador responsável pela frente de dados, BI e analytics da ProcessSurge, uma iniciativa empreendedora construída em parceria. A atuação conecta automação, indicadores e leitura executiva para ajudar operações de e-commerce a ganhar controle, eficiência e capacidade de decisão.",
     processPoints: ["BI para e-commerce", "Pipelines automatizados", "Indicadores de conversão", "Inteligência operacional"],
     processCta: "Conhecer a ProcessSurge",
     methodLabel: "Como eu trabalho",
@@ -142,13 +142,6 @@ const copy = {
       "A experiência operacional não ficou para trás. Ela virou repertório para entender o negócio antes de modelar a resposta.",
     timeline: [
       {
-        period: "2026 · atual",
-        role: "Cofundador · Dados e inteligência operacional",
-        company: "ProcessSurge",
-        body: "Responsável pela frente de dados, BI e analytics aplicada a operações, integrações e automação de negócio.",
-        details: ["Arquitetura BI com n8n, PostgreSQL e Apache Superset", "Integração de ERP e APIs em camadas RAW, Silver e Gold", "Pipelines de e-commerce e indicadores executivos"],
-      },
-      {
         period: "2025 · atual",
         role: "Analista de Dados",
         company: "Hi Platform",
@@ -184,13 +177,13 @@ const copy = {
     aboutBody: [
       "Sou Analista de Dados e bacharel em Engenharia de Software. Minha trajetória profissional começou em 2011, em ambientes operacionais e industriais, e desde 2022 concentro minha atuação em dados, BI, automação e inteligência aplicada.",
       "Hoje trabalho de ponta a ponta: extração, tratamento, modelagem, integrações, pipelines, dashboards, KPIs e análises. Meu papel não termina quando o dashboard carrega; procuro entender a regra de negócio, validar a métrica e comunicar o que realmente merece atenção.",
-      "Na Hi Platform e na ProcessSurge, conecto profundidade técnica, contexto operacional e comunicação executiva para aproximar dados dispersos de decisões confiáveis.",
+      "Na Hi Platform, conecto profundidade técnica, contexto operacional e comunicação executiva para aproximar dados dispersos de decisões confiáveis.",
     ],
     principles: ["Baixo ruído", "Métrica com contexto", "Evidência antes da conclusão"],
     contactLabel: "Contato",
     contactTitle: "Se o desafio pede dados, contexto e direção, vale conversar.",
     contactBody:
-      "Aberto a oportunidades em Dados, BI e Analytics, além de conversas estratégicas ligadas à ProcessSurge.",
+      "Aberto a oportunidades em Dados, BI e Analytics e a conversas sobre desafios que exijam contexto, estruturação e clareza para decisão.",
     resourcesTitle: "Currículo e canais diretos",
     cvPt: "Currículo em português",
     cvEn: "Résumé in English",
@@ -227,7 +220,7 @@ const copy = {
     signal: "Live signal",
     evidence: "Evidence",
     graphLabels: ["Data", "Metrics", "Context", "Decision"],
-    roleLine: "Hi Platform · ProcessSurge",
+    roleLine: "Hi Platform · BI & Analytics",
     workLabel: "What I solve",
     workTitle: "From raw data to decisions, owning the full analytical path.",
     workIntro:
@@ -235,7 +228,7 @@ const copy = {
     profileLabel: "Professional profile",
     profileTitle: "Data, BI and automation with business context.",
     profileBody:
-      "Data Analyst at Hi Platform and co-founder of ProcessSurge. I combine BI, data integration, automation and applied AI with operational perspective and executive communication to turn scattered data into reliable indicators, analytical products and better decisions.",
+      "Data Analyst at Hi Platform. I combine BI, data integration, automation and applied AI with operational perspective and executive communication to turn scattered data into reliable indicators, analytical products and better decisions.",
     profileFacts: [
       ["FIELD", "BI · Analytics · Automation"],
       ["BASE", "Ubá · MG · Remote"],
@@ -268,10 +261,10 @@ const copy = {
         tags: ["Python", "n8n", "LLMs"],
       },
     ],
-    processLabel: "ProcessSurge",
-    processTitle: "Data and operational intelligence applied to growth.",
+    processLabel: "Entrepreneurial initiative · ProcessSurge",
+    processTitle: "Data and operational intelligence for e-commerce operations.",
     processBody:
-      "As co-founder, I lead the data and operational intelligence front. The goal is to connect e-commerce, automation and analytics in solutions that organize operations, expose bottlenecks and help businesses grow with more control.",
+      "I serve as co-founder responsible for data, BI and analytics at ProcessSurge, an entrepreneurial initiative built collaboratively. The work connects automation, indicators and executive insight to help e-commerce operations gain control, efficiency and stronger decision-making.",
     processPoints: ["E-commerce BI", "Automated pipelines", "Conversion indicators", "Operational intelligence"],
     processCta: "Visit ProcessSurge",
     methodLabel: "How I work",
@@ -339,13 +332,6 @@ const copy = {
       "My operational background did not stay in the past. It became the perspective I use to understand the business before modeling an answer.",
     timeline: [
       {
-        period: "2026 · present",
-        role: "Co-founder · Data and operational intelligence",
-        company: "ProcessSurge",
-        body: "Responsible for data, BI and analytics applied to operations, integrations and business automation.",
-        details: ["BI architecture with n8n, PostgreSQL and Apache Superset", "ERP and API integration across RAW, Silver and Gold layers", "E-commerce pipelines and executive indicators"],
-      },
-      {
         period: "2025 · present",
         role: "Data Analyst",
         company: "Hi Platform",
@@ -381,13 +367,13 @@ const copy = {
     aboutBody: [
       "I am a Data Analyst with a bachelor's degree in Software Engineering. My career began in 2011 across industrial and operational environments, and since 2022 I have focused on data, BI, automation and applied intelligence.",
       "Today I work across the full analytics lifecycle: extraction, transformation, modeling, integrations, pipelines, dashboards, KPIs and analysis. My role does not end when a dashboard loads; I work to understand business rules, validate metrics and communicate what truly deserves attention.",
-      "At Hi Platform and ProcessSurge, I connect technical depth, operational context and executive communication to turn scattered data into reliable decisions.",
+      "At Hi Platform, I connect technical depth, operational context and executive communication to turn scattered data into reliable decisions.",
     ],
     principles: ["Low noise", "Metrics with context", "Evidence before conclusions"],
     contactLabel: "Contact",
     contactTitle: "If the challenge calls for data, context and direction, let's talk.",
     contactBody:
-      "Open to opportunities in Data, BI and Analytics, as well as strategic conversations involving ProcessSurge.",
+      "Open to opportunities in Data, BI and Analytics, as well as conversations about challenges that require context, structure and decision clarity.",
     resourcesTitle: "Résumé and direct channels",
     cvPt: "Currículo em português",
     cvEn: "Résumé in English",
