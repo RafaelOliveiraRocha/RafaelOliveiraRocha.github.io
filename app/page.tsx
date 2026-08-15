@@ -21,7 +21,7 @@ const copy = {
       "Estruturo BI, dashboards e analytics operacional com SQL, Python, Apache Superset e Power BI para transformar dados dispersos em indicadores confiáveis e decisões melhores.",
     seeWork: "Ver projetos",
     download: "Baixar currículo",
-    cvHref: "/Rafael_Rocha_Curriculo.pdf",
+    cvHref: "/Curriculo_Rafael_Rocha_PT.pdf",
     metrics: [
       ["43", "R$", "K/mês", "em savings recorrentes"],
       ["40", "", "+", "contas atendidas"],
@@ -30,7 +30,7 @@ const copy = {
     signal: "Sinal ativo",
     evidence: "Evidência",
     graphLabels: ["Dados", "Métricas", "Contexto", "Decisão"],
-    roleLine: "Hi Platform · BI & Analytics",
+    roleLine: "Hi Platform · Analista de Dados",
     workLabel: "O que eu resolvo",
     workTitle: "Da base à decisão, com responsabilidade pelo caminho inteiro.",
     workIntro:
@@ -38,7 +38,7 @@ const copy = {
     profileLabel: "Perfil profissional",
     profileTitle: "Dados, BI e automação com leitura de negócio.",
     profileBody:
-      "Analista de Dados na Hi Platform. Minha atuação combina BI, integração de dados, automação e IA aplicada com visão operacional e comunicação executiva para transformar bases dispersas em indicadores confiáveis, produtos analíticos e decisões melhores.",
+      "Analista de Dados na Hi Platform. Minha atuação combina construção técnica, visão operacional e comunicação executiva para transformar bases dispersas em indicadores confiáveis, análises acionáveis e produtos analíticos úteis.",
     profileFacts: [
       ["ATUAÇÃO", "BI · Analytics · Automação"],
       ["BASE", "Ubá · MG · Remoto"],
@@ -71,7 +71,7 @@ const copy = {
         tags: ["Python", "n8n", "LLMs"],
       },
     ],
-    processLabel: "Frente empreendedora · ProcessSurge",
+    processLabel: "Iniciativa empreendedora · ProcessSurge",
     processTitle: "Dados e inteligência operacional aplicados a e-commerce.",
     processBody:
       "Atuo como cofundador responsável pela frente de dados, BI e analytics da ProcessSurge, uma iniciativa empreendedora construída em parceria. A atuação conecta automação, indicadores e leitura executiva para ajudar operações de e-commerce a ganhar controle, eficiência e capacidade de decisão.",
@@ -94,7 +94,7 @@ const copy = {
         index: "01",
         kicker: "EFICIÊNCIA DE BI",
         title: "Migração de plataforma analítica com redução de custo recorrente",
-        body: "Cocondução da migração da camada de dashboards e indicadores para uma estrutura interna em Apache Superset, preservando a leitura operacional e a continuidade das entregas.",
+        body: "Conduzi de ponta a ponta a migração da camada de dashboards e indicadores para uma estrutura interna em Apache Superset, incluindo a reconstrução dos painéis e a preservação da leitura operacional e da continuidade das entregas.",
         result: "R$43K/mês",
         resultLabel: "em savings de tecnologia",
         tags: ["Apache Superset", "SQL", "Migração"],
@@ -103,7 +103,7 @@ const copy = {
         index: "02",
         kicker: "INTEGRAÇÃO E ARQUITETURA DE DADOS",
         title: "Dados financeiros estruturados da origem à decisão",
-        body: "Estruturação de uma integração entre ERP, APIs, n8n e PostgreSQL, organizada em camadas RAW, Silver e Gold para preservar histórico, garantir rastreabilidade e alimentar uma aplicação analítica voltada à priorização e à tomada de decisão.",
+        body: "Estruturei uma integração entre ERP, APIs, n8n e PostgreSQL em camadas RAW, Silver e Gold para preservar histórico, garantir rastreabilidade e alimentar uma aplicação analítica voltada à priorização e à tomada de decisão.",
         result: "RAW → GOLD",
         resultLabel: "com rastreabilidade ponta a ponta",
         tags: ["APIs", "n8n", "PostgreSQL"],
@@ -121,19 +121,19 @@ const copy = {
         index: "04",
         kicker: "IA APLICADA AO BI",
         title: "Perguntas em linguagem natural com contexto, limites e evidência",
-        body: "Prototipação de uma camada conversacional sobre dados analíticos, conectando linguagem natural, geração de SQL e respostas rastreáveis. O foco não é a mágica do modelo, mas a confiança da decisão.",
+        body: "Desenvolvi de ponta a ponta uma camada conversacional sobre dados analíticos, conectando linguagem natural, geração de SQL e respostas rastreáveis. O foco não é a mágica do modelo, mas a confiança da decisão.",
         result: "NL → SQL",
         resultLabel: "com governança analítica",
         tags: ["LLMs", "SQL", "Observabilidade"],
       },
       {
         index: "05",
-        kicker: "ANALYTICS OPERACIONAL",
-        title: "Indicadores que sustentam decisões em canais digitais",
-        body: "Dashboards e análises de volumetria, retenção, recontato, abandono, CSAT e jornada. Uma camada recorrente de leitura para priorizar ajustes e acompanhar evolução.",
-        result: "40+",
-        resultLabel: "contas atendidas",
-        tags: ["BI", "Customer Analytics", "KPIs"],
+        kicker: "PRODUTO ANALÍTICO OPERACIONAL",
+        title: "Torre de Controle: operação na TV e desempenho por identidade",
+        body: "Desenvolvi de ponta a ponta uma Torre de Controle para atendimento, unindo uma visão operacional exibida continuamente na TV da operação a um dashboard único para supervisores e operadores. Com RLS dinâmica, cada operador acessa somente os próprios dados, enquanto a supervisão preserva a visão consolidada. Ingestão automatizada, reconciliação entre fontes e atualização recorrente sustentam indicadores consistentes.",
+        result: "3 CONTEXTOS",
+        resultLabel: "TV · supervisão · operador",
+        tags: ["Apache Superset", "PostgreSQL", "RLS dinâmica"],
       },
     ],
     experienceLabel: "Experiência",
@@ -142,25 +142,32 @@ const copy = {
       "A experiência operacional não ficou para trás. Ela virou repertório para entender o negócio antes de modelar a resposta.",
     timeline: [
       {
-        period: "2025 · atual",
+        period: "ago/2025 · atual",
         role: "Analista de Dados",
         company: "Hi Platform",
-        body: "Atuação ponta a ponta com BI, SQL, dashboards executivos, analytics operacional, automação, IA aplicada e comunicação com áreas de negócio.",
-        details: ["Migração de BI com aproximadamente R$43K/mês em savings", "Dashboards e análises recorrentes para 40+ contas", "Protótipo de camada conversacional com linguagem natural, geração de SQL e respostas rastreáveis", "SQL, Python, PostgreSQL e storytelling executivo"],
+        body: "Atuação ponta a ponta com BI, SQL, dashboards executivos, analytics operacional, automação e IA aplicada, incluindo a Torre de Controle com TV operacional e RLS dinâmica.",
+        details: ["Migração de BI com aproximadamente R$43K/mês em savings", "Torre de Controle com visão em TV, dashboard único e RLS dinâmica", "Camada conversacional desenvolvida de ponta a ponta com linguagem natural, geração de SQL e respostas rastreáveis"],
       },
       {
-        period: "2024 · 2025",
+        period: "fev/2024 · jul/2025",
         role: "Estagiário em Business Intelligence",
         company: "Hi Platform",
         body: "Construção de dashboards de performance, análises de canais digitais e estruturação de métricas para operações B2B.",
         details: ["Métricas de bots, atendimento e jornada", "Análises quantitativas e qualitativas para evolução de produto"],
       },
       {
-        period: "2022 · 2024",
+        period: "jul/2022 · fev/2024",
         role: "Assistente de Operações",
         company: "AppJusto",
         body: "Operação de plataforma digital, dashboards no Looker Studio e automações em Python conectadas a problemas reais da rotina.",
         details: ["Primeiras camadas de BI para acompanhamento operacional", "Automação de processos de prospecção e prevenção de churn"],
+      },
+      {
+        period: "2011 · 2022",
+        role: "Operações, logística e controles",
+        company: "Indústria e varejo",
+        body: "Trajetória construída em produção, almoxarifado, estoque, logística e rotinas administrativas, formando o repertório operacional que hoje sustenta minha leitura de negócio.",
+        details: ["Controles e relatórios em Excel", "Visão prática de processos, qualidade e operação"],
       },
     ],
     education: "Bacharel em Engenharia de Software · 2025",
@@ -175,15 +182,15 @@ const copy = {
     aboutLabel: "Sobre",
     aboutTitle: "Técnica suficiente para construir. Contexto suficiente para decidir.",
     aboutBody: [
-      "Sou Analista de Dados e bacharel em Engenharia de Software. Minha trajetória profissional começou em 2011, em ambientes operacionais e industriais, e desde 2022 concentro minha atuação em dados, BI, automação e inteligência aplicada.",
-      "Hoje trabalho de ponta a ponta: extração, tratamento, modelagem, integrações, pipelines, dashboards, KPIs e análises. Meu papel não termina quando o dashboard carrega; procuro entender a regra de negócio, validar a métrica e comunicar o que realmente merece atenção.",
-      "Na Hi Platform, conecto profundidade técnica, contexto operacional e comunicação executiva para aproximar dados dispersos de decisões confiáveis.",
+      "Sou Analista de Dados na Hi Platform. Trabalho na interseção entre BI, analytics operacional, automação e inteligência aplicada.",
+      "Meu papel não termina quando o dashboard carrega. Eu busco entender a regra de negócio, validar a métrica, organizar a evidência e comunicar o que realmente merece atenção.",
+      "Hoje, concentro minha evolução em produtos analíticos, IA aplicada ao BI e estruturas de dados que aproximem perguntas de decisões confiáveis.",
     ],
     principles: ["Baixo ruído", "Métrica com contexto", "Evidência antes da conclusão"],
     contactLabel: "Contato",
     contactTitle: "Se o desafio pede dados, contexto e direção, vale conversar.",
     contactBody:
-      "Aberto a oportunidades em Dados, BI e Analytics e a conversas sobre desafios que exijam contexto, estruturação e clareza para decisão.",
+      "Aberto a oportunidades em Dados, BI e Analytics e a conversas sobre produtos analíticos, automação e IA aplicada.",
     resourcesTitle: "Currículo e canais diretos",
     cvPt: "Currículo em português",
     cvEn: "Résumé in English",
@@ -211,7 +218,7 @@ const copy = {
       "I build BI, dashboards and operational analytics with SQL, Python, Apache Superset and Power BI to turn scattered data into reliable indicators and better decisions.",
     seeWork: "View projects",
     download: "Download résumé",
-    cvHref: "/Rafael_Rocha_Resume.pdf",
+    cvHref: "/Rafael_Rocha_Resume_EN.pdf",
     metrics: [
       ["43", "R$", "K/month", "in recurring savings"],
       ["40", "", "+", "accounts supported"],
@@ -220,7 +227,7 @@ const copy = {
     signal: "Live signal",
     evidence: "Evidence",
     graphLabels: ["Data", "Metrics", "Context", "Decision"],
-    roleLine: "Hi Platform · BI & Analytics",
+    roleLine: "Hi Platform · Data Analyst",
     workLabel: "What I solve",
     workTitle: "From raw data to decisions, owning the full analytical path.",
     workIntro:
@@ -228,7 +235,7 @@ const copy = {
     profileLabel: "Professional profile",
     profileTitle: "Data, BI and automation with business context.",
     profileBody:
-      "Data Analyst at Hi Platform. I combine BI, data integration, automation and applied AI with operational perspective and executive communication to turn scattered data into reliable indicators, analytical products and better decisions.",
+      "Data Analyst at Hi Platform. My work combines technical execution, operational perspective and executive communication to turn scattered data into reliable indicators, actionable analysis and useful analytical products.",
     profileFacts: [
       ["FIELD", "BI · Analytics · Automation"],
       ["BASE", "Ubá · MG · Remote"],
@@ -262,7 +269,7 @@ const copy = {
       },
     ],
     processLabel: "Entrepreneurial initiative · ProcessSurge",
-    processTitle: "Data and operational intelligence for e-commerce operations.",
+    processTitle: "Data and operational intelligence applied to e-commerce.",
     processBody:
       "I serve as co-founder responsible for data, BI and analytics at ProcessSurge, an entrepreneurial initiative built collaboratively. The work connects automation, indicators and executive insight to help e-commerce operations gain control, efficiency and stronger decision-making.",
     processPoints: ["E-commerce BI", "Automated pipelines", "Conversion indicators", "Operational intelligence"],
@@ -284,16 +291,16 @@ const copy = {
         index: "01",
         kicker: "BI EFFICIENCY",
         title: "Analytics platform migration with recurring cost reduction",
-        body: "Co-led the migration of dashboards and indicators to an internal Apache Superset structure, preserving operational visibility and delivery continuity.",
+        body: "Led and executed the end-to-end migration of dashboards and indicators to an internal Apache Superset structure, including dashboard rebuilds while preserving operational visibility and delivery continuity.",
         result: "R$43K/month",
         resultLabel: "in technology savings",
         tags: ["Apache Superset", "SQL", "Migration"],
       },
       {
         index: "02",
-        kicker: "DATA INTEGRATION & ARCHITECTURE",
+        kicker: "DATA INTEGRATION AND ARCHITECTURE",
         title: "Financial data structured from source to decision",
-        body: "Designed an integration connecting an ERP, APIs, n8n and PostgreSQL, organized into RAW, Silver and Gold layers to preserve history, ensure traceability and power a decision-support analytics application.",
+        body: "Built an integration across ERP, APIs, n8n and PostgreSQL using RAW, Silver and Gold layers to preserve history, ensure traceability and feed an analytical application focused on prioritization and decision-making.",
         result: "RAW → GOLD",
         resultLabel: "with end-to-end traceability",
         tags: ["APIs", "n8n", "PostgreSQL"],
@@ -311,19 +318,19 @@ const copy = {
         index: "04",
         kicker: "AI APPLIED TO BI",
         title: "Natural-language questions with context, limits and evidence",
-        body: "Prototyped a conversational layer over analytical data, connecting natural language, SQL generation and traceable answers. The focus is not model magic, but decision confidence.",
+        body: "Built an end-to-end conversational layer over analytical data, connecting natural language, SQL generation and traceable answers. The focus is not model magic, but decision confidence.",
         result: "NL → SQL",
         resultLabel: "with analytical governance",
         tags: ["LLMs", "SQL", "Observability"],
       },
       {
         index: "05",
-        kicker: "OPERATIONAL ANALYTICS",
-        title: "Indicators supporting decisions across digital channels",
-        body: "Dashboards and analyses covering volume, retention, recontact, abandonment, CSAT and journey metrics. A recurring insight layer for prioritization and progress tracking.",
-        result: "40+",
-        resultLabel: "accounts supported",
-        tags: ["BI", "Customer Analytics", "KPIs"],
+        kicker: "OPERATIONAL ANALYTICS PRODUCT",
+        title: "Control Tower: TV monitoring and identity-based performance",
+        body: "I built an end-to-end Control Tower for a service operation, combining an operational view continuously displayed on the team’s TV with a single performance dashboard for supervisors and operators. Dynamic row-level security limits each operator to their own data while supervisors retain the consolidated view. Automated ingestion, source reconciliation, and recurring refreshes support consistent operational metrics.",
+        result: "3 CONTEXTS",
+        resultLabel: "TV · supervision · operator",
+        tags: ["Apache Superset", "PostgreSQL", "Dynamic RLS"],
       },
     ],
     experienceLabel: "Experience",
@@ -332,25 +339,32 @@ const copy = {
       "My operational background did not stay in the past. It became the perspective I use to understand the business before modeling an answer.",
     timeline: [
       {
-        period: "2025 · present",
+        period: "Aug 2025 · present",
         role: "Data Analyst",
         company: "Hi Platform",
-        body: "End-to-end work with BI, SQL, executive dashboards, operational analytics, automation, applied AI and communication with business teams.",
-        details: ["BI migration delivering approximately R$43K/month in savings", "Recurring dashboards and analysis for 40+ accounts", "Conversational analytics prototype combining natural language, SQL generation and traceable answers", "SQL, Python, PostgreSQL and executive storytelling"],
+        body: "End-to-end work with BI, SQL, executive dashboards, operational analytics, automation and applied AI, including the Control Tower with operational TV monitoring and dynamic RLS.",
+        details: ["BI migration delivering approximately R$43K/month in savings", "Control Tower with a TV view, one shared dashboard and dynamic RLS", "End-to-end conversational layer using natural language, SQL generation and traceable answers"],
       },
       {
-        period: "2024 · 2025",
+        period: "Feb 2024 · Jul 2025",
         role: "Business Intelligence Intern",
         company: "Hi Platform",
         body: "Performance dashboards, digital-channel analyses and metric frameworks for B2B operations.",
         details: ["Bot, customer service and journey metrics", "Quantitative and qualitative analysis supporting product evolution"],
       },
       {
-        period: "2022 · 2024",
+        period: "Jul 2022 · Feb 2024",
         role: "Operations Assistant",
         company: "AppJusto",
         body: "Digital-platform operations, Looker Studio dashboards and Python automation connected to real operational problems.",
         details: ["Early BI layers for operational monitoring", "Automation for prospecting and churn-prevention processes"],
+      },
+      {
+        period: "2011 · 2022",
+        role: "Operations, logistics and controls",
+        company: "Industry and retail",
+        body: "A career foundation across production, warehousing, inventory, logistics and administrative routines, building the operational perspective that now supports my business analysis.",
+        details: ["Excel controls and reports", "Hands-on understanding of processes, quality and operations"],
       },
     ],
     education: "Bachelor's Degree in Software Engineering · 2025",
@@ -365,15 +379,15 @@ const copy = {
     aboutLabel: "About",
     aboutTitle: "Technical depth to build. Business context to decide.",
     aboutBody: [
-      "I am a Data Analyst with a bachelor's degree in Software Engineering. My career began in 2011 across industrial and operational environments, and since 2022 I have focused on data, BI, automation and applied intelligence.",
-      "Today I work across the full analytics lifecycle: extraction, transformation, modeling, integrations, pipelines, dashboards, KPIs and analysis. My role does not end when a dashboard loads; I work to understand business rules, validate metrics and communicate what truly deserves attention.",
-      "At Hi Platform, I connect technical depth, operational context and executive communication to turn scattered data into reliable decisions.",
+      "I am a Data Analyst at Hi Platform, working at the intersection of BI, operational analytics, automation and applied intelligence.",
+      "My role does not end when a dashboard loads. I work to understand the business rule, validate the metric, organize the evidence and communicate what truly deserves attention.",
+      "I am currently focused on analytical products, AI applied to BI and data structures that bring questions closer to reliable decisions.",
     ],
     principles: ["Low noise", "Metrics with context", "Evidence before conclusions"],
     contactLabel: "Contact",
     contactTitle: "If the challenge calls for data, context and direction, let's talk.",
     contactBody:
-      "Open to opportunities in Data, BI and Analytics, as well as conversations about challenges that require context, structure and decision clarity.",
+      "Open to opportunities in Data, BI and Analytics, as well as conversations about analytical products, automation and applied AI.",
     resourcesTitle: "Résumé and direct channels",
     cvPt: "Currículo em português",
     cvEn: "Résumé in English",
@@ -457,12 +471,34 @@ function DataStage({ language }: { language: Language }) {
   );
 }
 
-function CaseVisual({ index }: { index: number }) {
+function CaseVisual({ index, language }: { index: number; language: Language }) {
+  const isPt = language === "pt";
   if (index === 0) return <div className="case-semantic migration-viz"><span>DashBI</span><i>→</i><span>Superset</span><strong>− R$43K</strong></div>;
-  if (index === 1) return <div className="case-semantic pipeline-viz"><div><span>API</span><i>→</i><span>RAW</span><i>→</i><span>SILVER</span><i>→</i><span>GOLD</span></div><strong>ERP → DECISÃO</strong></div>;
-  if (index === 2) return <div className="case-semantic volume-viz"><strong>40+ GB</strong><div>{Array.from({length:18}).map((_,i)=><i key={i} />)}</div><span>PADRÕES → OPORTUNIDADE</span></div>;
-  if (index === 3) return <div className="case-semantic ai-viz"><span>“Qual indicador mudou?”</span><code>SELECT insight FROM dados;</code><strong>✓ RESPOSTA RASTREÁVEL</strong></div>;
-  return <div className="case-semantic accounts-viz"><div>{Array.from({length:20}).map((_,i)=><i key={i} />)}</div><strong>40+ CONTAS</strong><span>COBERTURA ANALÍTICA</span></div>;
+  if (index === 1) return <div className="case-semantic pipeline-viz"><div><span>ERP</span><i>→</i><span>RAW</span><i>→</i><span>SILVER</span><i>→</i><span>GOLD</span></div><strong>{isPt ? "HISTÓRICO + RASTREABILIDADE" : "HISTORY + TRACEABILITY"}</strong></div>;
+  if (index === 2) return <div className="case-semantic volume-viz"><strong>40+ GB</strong><div>{Array.from({length:18}).map((_,i)=><i key={i} />)}</div><span>{isPt ? "PADRÕES → OPORTUNIDADE" : "PATTERNS → OPPORTUNITY"}</span></div>;
+  if (index === 3) return <div className="case-semantic ai-viz"><span>{isPt ? "“Qual indicador mudou?”" : "“Which metric changed?”"}</span><code>SELECT insight FROM data;</code><strong>✓ {isPt ? "RESPOSTA RASTREÁVEL" : "TRACEABLE ANSWER"}</strong></div>;
+  return (
+    <div className="case-semantic control-tower-viz" aria-label={isPt ? "Representação anônima da Torre de Controle" : "Anonymous Control Tower representation"}>
+      <div className="tower-tv">
+        <header><span>● {isPt ? "OPERAÇÃO" : "OPERATION"}</span><strong>TV</strong></header>
+        <div className="tower-kpis"><i /><i /><i /></div>
+        <div className="tower-chart"><b /><b /><b /><b /><b /></div>
+      </div>
+      <div className="tower-core" aria-hidden="true">
+        <span className="tower-signal tower-signal-a" />
+        <span className="tower-signal tower-signal-b" />
+        <i className="tower-mast" />
+        <div className="tower-body"><b /><b /><b /></div>
+        <div className="tower-bi"><i /><i /><i /></div>
+      </div>
+      <div className="tower-access">
+        <header><span>{isPt ? "MESMO DASHBOARD" : "SAME DASHBOARD"}</span><strong>RLS</strong></header>
+        <div><i>OP</i><span>{isPt ? "DADOS PRÓPRIOS" : "OWN DATA"}</span></div>
+        <div><i>SV</i><span>{isPt ? "VISÃO CONSOLIDADA" : "CONSOLIDATED VIEW"}</span></div>
+      </div>
+      <strong className="tower-flow">{isPt ? "TV · SUPERVISÃO · OPERADOR" : "TV · SUPERVISION · OPERATOR"}</strong>
+    </div>
+  );
 }
 
 type PortfolioCopy = (typeof copy)[Language];
@@ -514,9 +550,13 @@ function RecruiterMode({ language, t, onClose }: { language: Language; t: Portfo
               <p className="recruiter-kicker">{isPt ? "PROPOSTA DE VALOR" : "VALUE PROPOSITION"}</p>
               <h2 id="recruiter-title">{isPt ? "Dados operacionais viram direção de negócio." : "Operational data becomes business direction."}</h2>
               <p className="recruiter-lead">{t.profileBody}</p>
-              <div className="recruiter-metrics">
-                {t.metrics.map(([value, prefix, suffix, label]) => (
-                  <article key={label}><span>{prefix}{value}{suffix}</span><p>{label}</p></article>
+              <div className="recruiter-project-grid" aria-label={isPt ? "Projetos selecionados" : "Selected projects"}>
+                {t.cases.map((item) => (
+                  <article key={item.index}>
+                    <span>{item.index} · {item.kicker}</span>
+                    <strong>{item.result}</strong>
+                    <h3>{item.title}</h3>
+                  </article>
                 ))}
               </div>
               <div className="recruiter-proof"><span>● {isPt ? "POSICIONAMENTO" : "POSITIONING"}</span><strong>{t.roleLine}</strong><p>{isPt ? "BI · Analytics · Automação · IA aplicada" : "BI · Analytics · Automation · Applied AI"}</p></div>
@@ -566,7 +606,7 @@ function RecruiterMode({ language, t, onClose }: { language: Language; t: Portfo
               <h2>{t.contactTitle}</h2>
               <p className="recruiter-lead">{t.contactBody}</p>
               <div className="recruiter-actions">
-                <a href={t.cvHref} download={language === "pt" ? "Rafael_Rocha_Curriculo.pdf" : "Rafael_Rocha_Resume.pdf"}><span>PDF</span><strong>{t.download}</strong><DownloadIcon /></a>
+                <a href={t.cvHref} download><span>PDF</span><strong>{t.download}</strong><DownloadIcon /></a>
                 <a href="https://www.linkedin.com/in/rafael-rocha-89271021b/" target="_blank" rel="me noopener noreferrer"><span>IN</span><strong>LinkedIn</strong><ArrowIcon /></a>
                 <a href="https://wa.me/5532998147576" target="_blank" rel="noopener noreferrer"><span>WA</span><strong>WhatsApp</strong><ArrowIcon /></a>
               </div>
@@ -599,10 +639,10 @@ export default function Home() {
 
   useEffect(() => {
     const storedLanguage = localStorage.getItem("rr-language") as Language | null;
-    // The saved preference is restored only after hydration; PT-BR remains the first-visit default.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    if (storedLanguage === "pt" || storedLanguage === "en") setLanguage(storedLanguage);
     localStorage.removeItem("rr-theme");
+    if (storedLanguage !== "pt" && storedLanguage !== "en") return;
+    const timer = window.setTimeout(() => setLanguage(storedLanguage), 0);
+    return () => window.clearTimeout(timer);
   }, []);
 
   useEffect(() => {
@@ -764,7 +804,7 @@ export default function Home() {
                 <a className="button button-primary" href="#impacto">
                   {t.seeWork}<ArrowIcon />
                 </a>
-                <a className="button button-secondary" href={t.cvHref} download={language === "pt" ? "Rafael_Rocha_Curriculo.pdf" : "Rafael_Rocha_Resume.pdf"}>
+                <a className="button button-secondary" href={t.cvHref} download>
                   {t.download}<DownloadIcon />
                 </a>
               </div>
@@ -873,7 +913,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className={`case-result case-result-${index + 1}`}>
-                    <CaseVisual index={index} />
+                    <CaseVisual index={index} language={language} />
                     <strong>{item.result}</strong>
                     <span>{item.resultLabel}</span>
                   </div>
@@ -982,10 +1022,10 @@ export default function Home() {
             </div>
             <div className="contact-actions reveal delay-1">
               <h3 className="resources-title">{t.resourcesTitle}</h3>
-              <a className="contact-link cv-link" href="/Rafael_Rocha_Curriculo.pdf" download="Rafael_Rocha_Curriculo.pdf">
+              <a className="contact-link cv-link" href="/Curriculo_Rafael_Rocha_PT.pdf" download>
                 <span>PDF · PT</span><strong>{t.cvPt}</strong><DownloadIcon />
               </a>
-              <a className="contact-link cv-link" href="/Rafael_Rocha_Resume.pdf" download="Rafael_Rocha_Resume.pdf">
+              <a className="contact-link cv-link" href="/Rafael_Rocha_Resume_EN.pdf" download>
                 <span>PDF · EN</span><strong>{t.cvEn}</strong><DownloadIcon />
               </a>
               <a className="contact-link whatsapp-link" href="https://wa.me/5532998147576" target="_blank" rel="noopener noreferrer">

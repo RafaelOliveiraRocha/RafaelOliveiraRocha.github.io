@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Rafael Rocha",
   },
   description:
-    "Portfólio de Rafael Rocha, Analista de Dados especializado em BI, analytics operacional, integração e modelagem de dados, SQL, Python, PostgreSQL, Apache Superset, Power BI, APIs, automação e IA aplicada ao BI.",
+    "Portfólio de Rafael Rocha, Analista de Dados com atuação em BI, analytics operacional, integração e modelagem de dados, SQL, Python, PostgreSQL, Apache Superset, Power BI, automação e IA aplicada ao BI.",
   keywords: [
     "Rafael Rocha",
     "Analista de Dados",
@@ -41,7 +41,6 @@ export const metadata: Metadata = {
     "Modelagem de Dados",
     "APIs",
     "Pipelines de Dados",
-    "Arquitetura RAW Silver Gold",
     "Data Storytelling",
     "Customer Analytics",
     "Automação",
