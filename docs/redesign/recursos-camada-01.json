@@ -1,0 +1,80 @@
+{
+  "source_art": "docs/redesign/referencias/Portfólio de dados, automação e IA.png",
+  "source_photo": "/home/rocha/Downloads/foto_rafael.png",
+  "art_crop": [
+    0,
+    120,
+    1586,
+    854
+  ],
+  "clean_regions": "Faixa inferior a partir de y=544; margem direita x>1180 a partir de y=127; região livre x>703,y>428. Máscaras graduais excluem todos os textos e controles.",
+  "photo": "Redimensionamento Lanczos, WebP qualidade 91; sem retoque, alteração de cores ou recorte do retrato.",
+  "output_bytes": {
+    "public/redesign/foto-rafael-800.webp": 70090,
+    "public/redesign/hero-signals-mobile.webp": 131116,
+    "public/redesign/hero-signals.webp": 139294,
+    "public/redesign/foto-rafael-480.webp": 31564,
+    "public/redesign/process-signals.webp": 71100,
+    "public/redesign/fonts/noto-sans.woff": 41116,
+    "public/redesign/fonts/noto-serif.woff": 43908,
+    "public/redesign/fonts/LICENSE.txt": 5208
+  },
+  "references": [
+    {
+      "source": "/home/rocha/Downloads/Outras entregas e como trabalho-1.png",
+      "copy": "docs/redesign/referencias/Outras entregas e como trabalho-1.png",
+      "size": [
+        948,
+        1659
+      ],
+      "sha256": "64c3f2085914f8290fd865b674b37979d26e6c4cee2f1372d336ec68850241f0"
+    },
+    {
+      "source": "/home/rocha/Downloads/Portfólio de Rafael Rocha_ competências e contato-2.png",
+      "copy": "docs/redesign/referencias/Portfólio de Rafael Rocha_ competências e contato-2.png",
+      "size": [
+        894,
+        1760
+      ],
+      "sha256": "7526f27a40de585ad69d5684c99ba3ef5cb7023b22ae92b2cc43f26ef1edaeb1"
+    },
+    {
+      "source": "/home/rocha/Downloads/Portfólio mobile compacto de Rafael Rocha-3.png",
+      "copy": "docs/redesign/referencias/Portfólio mobile compacto de Rafael Rocha-3.png",
+      "size": [
+        1070,
+        1470
+      ],
+      "sha256": "4da91128d1cc889b121d5e6b28a4e8593484c4351aa7d6c92496f43bbd462d6f"
+    },
+    {
+      "source": "/home/rocha/Downloads/Comparação mobile_ expandir e recolher-4.png",
+      "copy": "docs/redesign/referencias/Comparação mobile_ expandir e recolher-4.png",
+      "size": [
+        926,
+        1698
+      ],
+      "sha256": "a8cc88bf935d304ae3238c47eb0f8071ae08ee40a4cd2f9c3db4c09cf86e6767"
+    },
+    {
+      "source": "/home/rocha/Downloads/foto_rafael.png",
+      "copy": "docs/redesign/referencias/foto_rafael.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "00414d4f0a5b6f93a4bfd39da0c9efcd462a68996478320ad0372e35f22cc11b"
+    }
+  ],
+  "process_blending": "Recorte derivado da mesma arte, com máscara radial CSS para transição suave ao carvão.",
+  "sha256": {
+    "public/redesign/foto-rafael-800.webp": "f4fb4356929e02774ab21a601f18513126ebf9035c3f1856727351c8da51749b",
+    "public/redesign/hero-signals-mobile.webp": "7ecb66f847d9bab1a9382a76217033764917b420bc259c756c2adeef7dda3bee",
+    "public/redesign/hero-signals.webp": "27abb3c1636e020642bcbcd53d9e7ab56fdb813ad01778200d0a9dbe995cece7",
+    "public/redesign/foto-rafael-480.webp": "d44456614d4b070fc21b5d4a8a830b583c930204876ebcffea632f462f132ed7",
+    "public/redesign/process-signals.webp": "351d1a748c1ffdc38697878f26df5017d6aa8597c2476811bbaccb3213269c66",
+    "public/redesign/fonts/noto-sans.woff": "57b2e43ecc16d443d62d06d5c08faf0449164a087be0af67fc6cbc3c88a7a9ba",
+    "public/redesign/fonts/noto-serif.woff": "cea6eb485975a9579047ffb185223cbe26c729ea97300a58e1666f46e4895000",
+    "public/redesign/fonts/LICENSE.txt": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/rtadewald/skills",
+  "revision": "99d0b39ce50b109f8b8484047f92e7943ac6c23d",
+  "revision_date": "2026-09-28T20:30:40Z",
+  "prepared_on": "2026-10-05",
+  "method": "skill-installer, download archive pinned to commit; entire skill folders preserved",
+  "files_sha256": {
+    "to-wireframe": {
+      "SKILL.md": "d46d500f53bb93f13d1cf722b1b6c913ab55b5687324cf2d736bf6218b2bfdfd",
+      "agents/openai.yaml": "e0f83ea94d4e52145e9a7a0107508fb59cb63fb03a3e8b4f4b0756e8e2006022",
+      "references/wireframe.example.svg": "ab8247e43a9077999c189cac2c17c2b7d1d286050e98f035d86418dc7bb6df5f"
+    },
+    "img-to-html": {
+      "README.md": "32bd836e0ed42ac152caa549fec7aed8cc1a3a2f3f32822d0a6b4655c4093d98",
+      "SKILL.md": "36bad9c72fb732158bd16681ad0929a0cdec4c0a6d1a3bf31e73c3dcf8530655",
+      "agents/openai.yaml": "dca03b4e418e77404e0367984de19485be81bb268739e1a7befa3809730e4d1f"
+    }
+  },
+  "scope": "Project-local copies. No paid APIs, services or dependencies configured."
+}

@@ -1,25 +1,17 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { preferenceInit } from "./preference-init";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const portfolioTitle = "Rafael Rocha | Dados, Automação e IA Aplicada";
+const portfolioDescription = "Estruturo dados, desenvolvo dashboards e automatizo análises para ajudar equipes a acompanhar a operação e identificar o que precisa de atenção.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rafaeloliveirarocha.github.io"),
   title: {
-    default: "Rafael Rocha | Analista de Dados, BI & Analytics",
+    default: portfolioTitle,
     template: "%s | Rafael Rocha",
   },
-  description:
-    "Portfólio de Rafael Rocha, Analista de Dados com atuação em BI, analytics operacional, integração e modelagem de dados, SQL, Python, PostgreSQL, Apache Superset, Power BI, automação e IA aplicada ao BI.",
+  description: portfolioDescription,
   keywords: [
     "Rafael Rocha",
     "Analista de Dados",
@@ -44,7 +36,7 @@ export const metadata: Metadata = {
     "Data Storytelling",
     "Customer Analytics",
     "Automação",
-    "IA aplicada ao BI",
+    "IA aplicada",
   ],
   authors: [{ name: "Rafael Rocha" }],
   creator: "Rafael Rocha",
@@ -57,9 +49,8 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   },
   openGraph: {
-    title: "Rafael Rocha | Dados, BI & Analytics",
-    description:
-      "Dados operacionais transformados em inteligência de negócio, indicadores confiáveis e decisões melhores.",
+    title: portfolioTitle,
+    description: portfolioDescription,
     type: "website",
     url: "/",
     siteName: "Portfólio Rafael Rocha",
@@ -67,8 +58,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Rafael Rocha | Analista de Dados, BI & Analytics",
-    description: "BI, integração de dados, SQL, Python, dashboards, automação e IA aplicada ao BI com contexto de negócio.",
+    title: portfolioTitle,
+    description: portfolioDescription,
   },
   formatDetection: { email: false, address: false, telephone: false },
 };
@@ -76,7 +67,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#060912",
+  themeColor: "#101313",
 };
 
 const structuredData = {
@@ -95,9 +86,9 @@ const structuredData = {
       "@id": "https://rafaeloliveirarocha.github.io/#rafael-rocha",
       name: "Rafael Rocha",
       url: "https://rafaeloliveirarocha.github.io/",
-      image: "https://rafaeloliveirarocha.github.io/rafael-rocha.jpeg",
+      image: "https://rafaeloliveirarocha.github.io/redesign/foto-rafael-800.webp",
       jobTitle: "Analista de Dados",
-      description: "Analista de Dados com atuação em Business Intelligence, analytics operacional, integração e modelagem de dados, SQL, Python, PostgreSQL, Apache Superset, Power BI, automação e IA aplicada ao BI.",
+      description: "Analista de Dados na Hi Platform. Atuo na construção e evolução de soluções de dados, BI, automação e IA aplicada, conectando desenvolvimento técnico às necessidades do negócio.",
       email: "mailto:rafaelolirocha@gmail.com",
       address: {
         "@type": "PostalAddress",
@@ -110,7 +101,7 @@ const structuredData = {
         "https://github.com/RafaelOliveiraRocha",
       ],
       worksFor: { "@type": "Organization", name: "Hi Platform" },
-      alumniOf: { "@type": "CollegeOrUniversity", name: "Universidade Pitágoras Unopar Anhanguera" },
+      alumniOf: { "@type": "CollegeOrUniversity", name: "UNOPAR" },
       knowsAbout: [
         "Business Intelligence",
         "Data Analytics",
@@ -129,7 +120,7 @@ const structuredData = {
         "n8n",
         "Data Storytelling",
         "Automação",
-        "IA aplicada ao BI",
+        "IA aplicada",
         "LLMs",
       ],
     },
@@ -142,17 +133,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" data-theme="dark" suppressHydrationWarning>
+    <html lang="pt-BR" data-preview-theme="dark" suppressHydrationWarning>
       <head>
-        <meta name="codex-preview" content="development" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <script dangerouslySetInnerHTML={{ __html: preferenceInit }} />
+        <link rel="icon" href="/favicon.svg?v=ff5033" type="image/svg+xml" sizes="any" />
+        <link rel="icon" href="/favicon-32x32.png?v=ff5033" sizes="32x32" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.ico?v=ff5033" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="antialiased">
         {children}
       </body>
     </html>

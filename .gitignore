@@ -42,3 +42,6 @@ next-env.d.ts
 /output/
 /tmp/
 /work/
+
+# Cópias locais de versões anteriores dos documentos de design
+/docs/redesign/versoes/

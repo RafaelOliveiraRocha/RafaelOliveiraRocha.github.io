@@ -1,0 +1,3 @@
+// Runs in the root head before the page paints, on both / and /previa/.
+// Keep the preview key as a fallback for preferences saved before promotion.
+export const preferenceInit = `(()=>{let theme='dark',language='pt';try{const saved=localStorage.getItem('rr-theme')||localStorage.getItem('rr-preview-theme');if(saved==='light'||saved==='dark')theme=saved;if(localStorage.getItem('rr-language')==='en')language='en';}catch{}document.documentElement.dataset.previewTheme=theme;document.documentElement.lang=language==='pt'?'pt-BR':'en';document.querySelector('meta[name="theme-color"]')?.setAttribute('content',theme==='dark'?'#101313':'#f4ede2');})();`;
