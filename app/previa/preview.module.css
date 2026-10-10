@@ -101,6 +101,7 @@
 .timelineItem::before{content:"";width:7px;height:7px;position:absolute;top:12px;left:5px;border:1px solid var(--secondary);background:var(--charcoal);border-radius:50%}
 .period{font-size:16px;line-height:1.65;color:var(--secondary)}
 .education>div{display:flex;align-items:center;gap:42px}
+.education>div+div{margin-top:32px}
 .education svg{width:90px;height:90px;flex:none}
 .education h3{font-size:29px;line-height:1.3;margin-bottom:12px}
 .education p{font-size:17px;color:var(--secondary)}
