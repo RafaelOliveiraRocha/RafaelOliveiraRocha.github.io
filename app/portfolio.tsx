@@ -5,6 +5,7 @@ import Continuity from "./previa/continuity";
 import Disclosure from "./previa/disclosure";
 import Modal from "./previa/modal";
 import Recruiter from "./previa/recruiter";
+import SectionNavigation, { useActiveSection, type NavigationItem } from "./previa/section-navigation";
 import { FlowDiagram, MigrationDiagram } from "./previa/diagrams";
 import { Icon } from "./previa/icons";
 import { copy, links, type Copy, type Language } from "./previa/content";
@@ -48,6 +49,7 @@ export default function Portfolio() {
   const { language, theme } = usePreferences();
   const t = copy[language]; const pt = language === "pt";
   const desktop = useDesktopContent();
+  const activeSection = useActiveSection();
   const showTop = useSyncExternalStore(subscribeScroll, () => window.scrollY > 480, () => false);
   const [overlay, setOverlay] = useState<"menu" | "recruiter" | null>(null);
   const [more, setMore] = useState(false);
@@ -58,7 +60,7 @@ export default function Portfolio() {
     applyPreferences();
     return () => { delete document.documentElement.dataset.previewTheme; };
   }, []);
-  const navigation = [{id:"impacto",label:pt?"Projetos":"Projects"},{id:"experiencia",label:t.experience},{id:"sobre",label:t.about},{id:"contato",label:t.contact}];
+  const navigation: NavigationItem[] = [{id:"impacto",label:pt?"Projetos":"Projects"},{id:"experiencia",label:t.experience},{id:"sobre",label:t.about},{id:"contato",label:t.contact}];
   function navigate(event: MouseEvent<HTMLAnchorElement>, id: string) {
     event.preventDefault(); setOverlay(null);
     history.pushState(null, "", `#${id}`);
@@ -82,7 +84,7 @@ export default function Portfolio() {
     <header className={styles.header}>
       <div className={`${styles.headerInner} ${styles.content}`} data-content-width>
         <a className={styles.brand} href="#inicio">Rafael Rocha</a><span className={styles.role}>{pt?"Analista de Dados":"Data Analyst"}</span>
-        <nav className={styles.nav} aria-label={pt?"Navegação principal":"Main navigation"}>{navigation.map(item => <a key={item.id} href={`#${item.id}`} onClick={event => navigate(event,item.id)}>{item.label}</a>)}</nav>
+        <SectionNavigation items={navigation} active={activeSection} label={pt?"Navegação principal":"Main navigation"} onNavigate={navigate}/>
         <div className={styles.headerActions}>
           <button ref={recruiterTrigger} type="button" className={`${styles.outlineButton} ${styles.recruiterTrigger}`} onClick={() => setOverlay("recruiter")} aria-haspopup="dialog">Recruiter 60s</button>
           <button type="button" className={styles.topButton} data-visible={showTop} tabIndex={showTop ? 0 : -1} aria-hidden={!showTop} aria-label={pt?"Voltar ao topo":"Back to top"} title={pt?"Voltar ao topo":"Back to top"} onClick={() => { document.querySelector<HTMLAnchorElement>(`.${styles.brand}`)?.focus({preventScroll:true}); window.scrollTo({top:0,behavior:reducedMotion()?"instant":"smooth"}); }}><Icon name="up"/></button>
@@ -144,7 +146,7 @@ export default function Portfolio() {
       </div>
     </main>
     {overlay && <Modal key={overlay} id={overlay === "menu" ? "preview-menu" : "preview-recruiter"} title={overlay === "menu" ? "Rafael Rocha" : "Recruiter 60s"} closeLabel={pt?"Fechar":"Close"} onClose={()=>setOverlay(null)} returnFocus={returnFocus}>
-      {overlay === "menu" ? <><nav className={styles.menuLinks} aria-label={pt?"Navegação":"Navigation"}>{navigation.map(item=><a key={item.id} href={`#${item.id}`} onClick={event=>navigate(event,item.id)}>{item.label}</a>)}</nav><button type="button" className={styles.primary} onClick={()=>setOverlay("recruiter")}>Recruiter 60s <span aria-hidden="true">→</span></button><div className={styles.menuPreferences}><LanguageControl language={language}/><ThemeControl language={language} theme={theme} label/></div><div className={styles.menuCV}><a href={links.cvPT} download>{t.cv_pt} ↓</a><a href={links.cvEN} download>{t.cv_en} ↓</a></div></> : <><div className={styles.recruiterPreferences}><LanguageControl language={language}/><ThemeControl language={language} theme={theme}/></div><Recruiter language={language} onClose={()=>setOverlay(null)}/></>}
+      {overlay === "menu" ? <><SectionNavigation items={navigation} active={activeSection} label={pt?"Navegação":"Navigation"} vertical onNavigate={navigate}/><button type="button" className={styles.primary} onClick={()=>setOverlay("recruiter")}>Recruiter 60s <span aria-hidden="true">→</span></button><div className={styles.menuPreferences}><LanguageControl language={language}/><ThemeControl language={language} theme={theme} label/></div><div className={styles.menuCV}><a href={links.cvPT} download>{t.cv_pt} ↓</a><a href={links.cvEN} download>{t.cv_en} ↓</a></div></> : <><div className={styles.recruiterPreferences}><LanguageControl language={language}/><ThemeControl language={language} theme={theme}/></div><Recruiter language={language} onClose={()=>setOverlay(null)}/></>}
     </Modal>}
   </div>;
 }

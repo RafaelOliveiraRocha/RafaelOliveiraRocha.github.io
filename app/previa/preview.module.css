@@ -21,9 +21,15 @@
 .headerInner{display:flex;align-items:center;gap:23px;min-height:var(--header-h);border-bottom:1px solid var(--rule)}
 .brand{font:700 29px/1.2 "Redesign Serif",Georgia,serif;white-space:nowrap}
 .role{border-left:1px solid var(--rule);padding-left:23px;color:var(--secondary);font-size:14px;white-space:nowrap}
-.nav{display:flex;align-items:center;gap:26px;margin-left:auto;font-size:15px}
+.nav{position:relative;display:flex;align-items:center;gap:26px;margin-left:auto;font-size:15px}
 .nav a,.menuCV a{padding-block:10px}
 .nav a:hover,.textLink:hover,.menuLinks a:hover,.menuCV a:hover{color:var(--vermillion)}
+.nav a[aria-current="location"],.menuLinks a[aria-current="location"]{color:var(--vermillion)}
+.navTrack{position:absolute;left:0;right:0;bottom:1px;height:1px;background:color-mix(in srgb,var(--vermillion) 40%,transparent);pointer-events:none}
+.navPoint{position:absolute;left:0;top:50%;width:6px;height:6px;border-radius:50%;background:var(--vermillion);opacity:0;transform:translate(calc(var(--nav-marker-position,0px) - 50%),-50%);transition:transform 180ms ease-out,opacity 100ms ease-out}
+.navPoint[data-visible="true"]{opacity:1}
+.menuLinks .navTrack{left:-12px;right:auto;top:0;bottom:0;width:1px;height:auto}
+.menuLinks .navPoint{left:50%;top:0;transform:translate(-50%,calc(var(--nav-marker-position,0px) - 50%))}
 .headerActions{display:flex;align-items:center;gap:12px;margin-left:auto}
 .headerActions .outlineButton{min-height:42px;padding:8px 13px;font-size:13px}
 .iconButton,.menuTrigger,.topButton{border:0;background:none;width:40px;height:44px;display:inline-flex;justify-content:center;align-items:center;flex:none}
@@ -169,7 +175,7 @@
 .modalHeader h2{font-size:29px;line-height:1.2}
 .modalHeader .iconButton{width:44px;height:44px;border:1px solid var(--rule);font-size:28px!important}
 .menuModal{width:min(450px,calc(100% - 32px));padding:24px}
-.menuLinks{display:flex;flex-direction:column;gap:6px;margin:20px 0 24px}
+.menuLinks{position:relative;display:flex;flex-direction:column;gap:6px;margin:20px 0 24px}
 .menuLinks a{font:700 35px/1.3 "Redesign Serif",Georgia,serif;padding:9px 0}
 .menuModal>.primary{width:100%;justify-content:space-between}
 .menuPreferences{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid var(--rule)}
