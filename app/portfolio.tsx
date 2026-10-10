@@ -130,7 +130,6 @@ export default function Portfolio() {
                 {([1,2,3,4] as const).map(n=><li key={n}><h4>{t[`previous${n}_title`]}</h4><p className={styles.period}>{t[`previous${n}_date`]}</p><p>{t[`previous${n}_body`]}</p></li>)}
               </ul>
               <p>{t.previous_reporting}</p>
-              <p>{t.previous_responsibility}</p>
             </Disclosure>
           </div>
         </section>
